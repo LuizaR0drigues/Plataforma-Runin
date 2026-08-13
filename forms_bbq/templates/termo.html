@@ -1,0 +1,77 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Termo de Consentimento</title>
+    <link rel="stylesheet" href="{% static 'assets/css/geral.css'  %}">
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h2>Termo de Consentimento</h2>
+
+        </header>
+        <main class="tce">
+            <section >
+                <div class="info-tce">
+                    <h3>CAAE: 96621926.1.0000.5390</h3>
+                    <p>Link para acessa sua cópia do termos: <a
+                            href="https://drive.google.com/file/d/1jblY9kP6RVGvT41sA_8kncpSjLlnzEAa/view?usp=sharing">Cópia
+                            no Drive</a></p>
+
+                </div>
+                <div class="text-tce">
+                    <h4>Objetivo Primário</h4>
+                    <p> Validação e complementação de bases de dados de auditorias considerando a identidade
+                        socioeconômica de participantes avaliadores de forma que teremos dados melhor adaptados para o contexto
+                        brasileiro linguístico e socialmente.</p>
+                    <br>
+                    <h4>Avaliação dos Riscos e Benefícios:</h4>
+                    <p><b>Riscos:</b><br>
+                            Apesar da natureza da pesquisa envolver basicamente a participação em workshops e a interação com
+                        sistemas computacionais não invasivos e questionários, existem alguns riscos associados à coleta
+                        e validação de dados. Pode haver algum desconforto com relação ao tempo requerido para participar
+                        dos workshops e para responder aos questionários, potencial fadiga e cansaço visual durante a
+                        interação com sistemas computacionais. 
+                        </p>
+                        <p> Além deste tipo de desconforto reconhecemos que as pessoas participantes estarão validando bases de dados que explicitamente ressaltam preconceitos e vieses linguísticos
+                        e sociais que podem aparecer em conversas com Chatbots baseados em modelos grandes de linguagem. Além do
+                        mais a plataforma explicitamente selecionará entradas na base sobre as quais as pessoas
+                        participantes tenham mais lugar de fala e experiência. Faremos o possível para minimizar tais desconfortos,
+                        principalmente informando as pessoas participantes destes riscos. Caso os riscos se concretizem,
+                        a pessoa voluntária poderá interromper sua participação a qualquer momento, sem prejuízos em futuras
+                        participações a pesquisa, caso deseje. 
+                        </p>
+                        <p> A fim de prevenir o vazamento de dados, será utilizado o sistema
+                        corporativo da USP, gerenciado pelo Google, sendo que os documentos serão compartilhados estritamente com
+                        usuários do domínio @usp. A plataforma de validação desenvolvida será hospedada em servidores internos da
+                        USP e o acesso público será permitido pela Central de Serviços de TI e Suporte
+                        Técnico da USP. Em caso de vazamento de dados, deveram ser seguidos os procedimentos definidos
+                        no documento de Protocolo de Proteção de Dados.
+                        </p>
+                        <p>
+                        <br><b>Benefícios:</b><br>
+                            Participantes receberão comunicações sobre publicações de resultados da pesquisa. As ferramentas
+                        desenvolvidas serão gratuitas e de código aberto, os participantes serão informados sobre sua
+                        disponibilização.
+                    </p>
+                </div>
+            </section>
+
+        </main>
+        <form action="{% url 'forms_bbq:termo' %}" method="post">
+            {% csrf_token %}
+            <div class="botao-tce">
+                <button id="finalizar" type="submit" name="termo" value="Nao">Finalizar</button>
+                <button id="aceitar" type="submit" name="termo" value="Sim">Aceito os termos</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,260 @@
+/* Importação de Fonte */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+/* Reset de Estilos */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+
+}
+
+/*Centralizando o container*/
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #D1C8E1;
+    
+}
+
+.container {
+    width: min(100%, 900px);
+    
+    background-color: #ffffff;
+    padding: 10px 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
+    border-radius: 10px;
+   
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+
+    background-color: #fff;
+    z-index: 999;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    
+    padding: 10px;
+    min-height: 70px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    
+
+}
+
+/*Configurações da Main*/
+main  {
+    
+    padding: 10px 20px;
+    width: 100%;
+    flex-grow: 1;
+}
+main section {
+    margin-bottom: 20px;
+}
+
+section p {
+    text-align: justify;
+}
+ul {
+    margin-left: 20px;
+
+}
+
+/*Main Cadastro*/
+main form {
+    padding: 10px 20px;
+}
+.element {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.enunc{
+    font-weight: bold;
+}
+/* Tooltip */
+.tooltip {
+    position: relative;
+    text-decoration: none;
+    color: #000;
+    cursor: help;
+}
+
+.tooltip::before {
+    content: attr(data-title);
+    background-color: #6a009a;
+    color: #FFF;
+    font-size: 13px;
+    padding: 10px;
+    border-radius: 6px;
+    text-align: left;
+
+    width: max-content;
+    min-width: 100px;
+    max-width: 250px;
+    white-space: normal;
+
+    position: absolute;
+    z-index: 500;
+    bottom: 100%;
+    left: 50%;
+    margin-bottom: 15px;
+
+    transform: translateX(-50%);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.4s ease, visibility 0.4s ease, transform 0.4s ease;
+}
+
+.tooltip::after {
+    content: '';
+    position: absolute;
+    z-index: 500;
+
+    bottom: 100%;
+    left: 50%;
+    margin-bottom: 5px;
+    transform: translateX(-50%);
+
+    border: 5px solid transparent;
+    border-top-color: #6a009a;
+
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.4s ease, visibility 0.4s ease;
+
+
+}
+
+.tooltip:hover::before,
+.tooltip:hover::after {
+    opacity: 1;
+    visibility: visible;
+}
+
+.quest {
+    z-index: 0;
+}
+
+h4.tooltip:hover:after,
+h4.tooltip:hover:before,
+p.tooltip:hover:after,
+p.tooltip:hover:before,
+sup.tooltip:hover:after,
+sup.tooltip:hover:before {
+    opacity: 1;
+}
+/*COnfigurações relacionadas ao Iframe e Imagens da HOME*/
+ figure, .iframe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.iframe {
+    overflow: visible;
+   
+}
+
+/* apenas a scroll-box controla a rolagem */
+.iframe .scroll-box {
+  height: 400px;         /* altura fixa */
+  overflow-y: auto;      /* scroll vertical */
+  overflow-x: hidden;    /* sem scroll horizontal */
+}
+/* Garante que divs internas do form ocupem 100% */
+.iframe .scroll-box form > div {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+/*BOtao Continuar*/
+.botao {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    justify-items: center;
+}
+.botao-continuar {
+    display: block;
+    margin: 5px auto;
+    padding: 12px 24px;
+    margin-top: 1rem;
+    background-color: #9400D3;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    
+}
+.botao-continuar a,  .botao-continuar p{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Termo */
+ 
+
+.tce section {
+    margin-bottom: 20px;
+}
+
+.tce div {
+    
+    margin-bottom: 20px;
+}
+
+.tce section p {
+    padding-bottom: 5px;
+    text-align: justify;
+}
+ 
+/* Botão Termo */
+.botao-tce {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.botao-tce button {
+    flex: 1;
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#finalizar{
+    background: #ccc;
+    color: black;
+}
+
+#aceitar {
+    background: #9400D3;
+    color: #fff;
+}

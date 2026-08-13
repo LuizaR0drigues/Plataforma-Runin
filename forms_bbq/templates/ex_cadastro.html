@@ -1,0 +1,276 @@
+{% load static %}
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <base target="_top">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/assets/css/geral.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h2>Criação do Perfil do Avaliador</h2>
+        </header>
+
+        <main>
+            <form action="" method="post">
+                <input type="hidden" name="csrfmiddlewaretoken" value="mG77Mn4MjLZA7g7GRYgQL6IAIeqpMpg0mqhGPQVIQ2YJRAMh7yLP72Ne4s4tCivO">
+
+                <p>Seu Id: 5be8ef94-f204-4e0d-a0df-9143cfa90050</p>
+                <input type="hidden" name="token_pk" value="5be8ef94-f204-4e0d-a0df-9143cfa90050" id="id_token_pk">
+
+                <!-- Idade -->
+                <div class="element">
+                    <label class="enunc" for="">
+                        Selecione abaixo a sua faixa etária?
+                    </label>
+                    <div id="id_age"><div>
+    <label for="id_age_0"><input type="radio" name="age" value="menos_18" required id="id_age_0">
+ Menos de 18 anos</label>
+
+</div><div>
+    <label for="id_age_1"><input type="radio" name="age" value="entre_18_24" required id="id_age_1">
+ Entre 18 a 24 anos</label>
+
+</div><div>
+    <label for="id_age_2"><input type="radio" name="age" value="entre_25_30" required id="id_age_2">
+ Entre 25 a 30 anos</label>
+
+</div><div>
+    <label for="id_age_3"><input type="radio" name="age" value="entre_31_40" required id="id_age_3">
+ Entre 31 a 40 anos</label>
+
+</div><div>
+    <label for="id_age_4"><input type="radio" name="age" value="entre_41_50" required id="id_age_4">
+ Entre 41 a 50 anos</label>
+
+</div><div>
+    <label for="id_age_5"><input type="radio" name="age" value="entre_51_60" required id="id_age_5">
+ Entre 51 a 60 anos</label>
+
+</div><div>
+    <label for="id_age_6"><input type="radio" name="age" value="mais_61" required id="id_age_6">
+ Mais de 61 anos</label>
+
+</div>
+</div>
+                </div>
+
+                <!-- Gênero -->
+                <div class="element">
+                    <label class="enunc" for="">
+                        Como você se identifica?
+                    </label>
+                    <div id="id_gender"><div>
+    <label for="id_gender_0"><input type="radio" name="gender" value="h" required id="id_gender_0">
+ Homem</label>
+
+</div><div>
+    <label for="id_gender_1"><input type="radio" name="gender" value="m" required id="id_gender_1">
+ Mulher</label>
+
+</div><div>
+    <label for="id_gender_2"><input type="radio" name="gender" value="nb" required id="id_gender_2">
+ Não-Binário</label>
+
+</div><div>
+    <label for="id_gender_3"><input type="radio" name="gender" value="none" required id="id_gender_3">
+ Prefiro não dizer</label>
+
+</div><div>
+    <label for="id_gender_4"><input type="radio" name="gender" value="other" required id="id_gender_4">
+ Outro</label>
+
+</div>
+</div>
+                </div>
+
+                <!-- Identidade de gênero -->
+                <div class="element">
+                    <label class="enunc" for="">
+                        Selecione abaixo a sua identidade de gênero:
+                        <sup class="tooltip"
+                            data-title="Identidade de gênero: refere-se a como a pessoa se reconhece. Cisgênero: se identifica com o gênero atribuido no nascimento.
+                            Transgênero: não se identifica com o genero atribuido no nascimento.
+                            Não-binária: não se identifica estritamente com o binário.">
+                            &#9432;
+                        </sup>
+                    </label>
+                    <div id="id_igender"><div>
+    <label for="id_igender_0"><input type="radio" name="igender" value="cis" required id="id_igender_0">
+ Cisgênero</label>
+
+</div><div>
+    <label for="id_igender_1"><input type="radio" name="igender" value="trans" required id="id_igender_1">
+ Transgênero</label>
+
+</div><div>
+    <label for="id_igender_2"><input type="radio" name="igender" value="nb" required id="id_igender_2">
+ Identidade Não-Binária</label>
+
+</div><div>
+    <label for="id_igender_3"><input type="radio" name="igender" value="none" required id="id_igender_3">
+ Prefiro não dizer</label>
+
+</div><div>
+    <label for="id_igender_4"><input type="radio" name="igender" value="other" required id="id_igender_4">
+ Outro</label>
+
+</div>
+</div>
+                </div>
+
+                <!-- Raça -->
+                <div class="element">
+                    <label class="enunc" for="">
+                        Como você se autodeclara segundo a classificação do IBGE?
+                    </label>
+                    <div id="id_race"><div>
+    <label for="id_race_0"><input type="radio" name="race" value="branco" required id="id_race_0">
+ Branco</label>
+
+</div><div>
+    <label for="id_race_1"><input type="radio" name="race" value="preto" required id="id_race_1">
+ Preto</label>
+
+</div><div>
+    <label for="id_race_2"><input type="radio" name="race" value="pardo" required id="id_race_2">
+ Pardo</label>
+
+</div><div>
+    <label for="id_race_3"><input type="radio" name="race" value="indigena" required id="id_race_3">
+ Indígena</label>
+
+</div><div>
+    <label for="id_race_4"><input type="radio" name="race" value="amarelo" required id="id_race_4">
+ Amarelo</label>
+
+</div><div>
+    <label for="id_race_5"><input type="radio" name="race" value="other" required id="id_race_5">
+ Outro</label>
+
+</div>
+</div>
+                </div>
+
+                <!-- SES1 -->
+                <div class="element">
+                    <label class="enunc" for="">
+                        Selecione a sua renda familiar?
+                        <sup class="tooltip"
+                            data-title="Considere o salário mínimo paulista atual. SM = R$ 1.804,00 ">
+                            &#9432;
+                        </sup>
+                    </label>
+                    <div id="id_ses1"><div>
+    <label for="id_ses1_0"><input type="radio" name="ses1" value="ses1" required id="id_ses1_0">
+ Até 1 salário mínimo</label>
+
+</div><div>
+    <label for="id_ses1_1"><input type="radio" name="ses1" value="ses2" required id="id_ses1_1">
+ Entre 1 e 2 salários minímos</label>
+
+</div><div>
+    <label for="id_ses1_2"><input type="radio" name="ses1" value="ses3" required id="id_ses1_2">
+ Entre 2 e 3 salários minímos</label>
+
+</div><div>
+    <label for="id_ses1_3"><input type="radio" name="ses1" value="ses4" required id="id_ses1_3">
+ Entre 3 e 4 salários minímos</label>
+
+</div><div>
+    <label for="id_ses1_4"><input type="radio" name="ses1" value="ses5" required id="id_ses1_4">
+ Entre 4 e 5 salários minímos</label>
+
+</div><div>
+    <label for="id_ses1_5"><input type="radio" name="ses1" value="ses6" required id="id_ses1_5">
+ Entre 5 e 6 salários minímos</label>
+
+</div><div>
+    <label for="id_ses1_6"><input type="radio" name="ses1" value="ses7" required id="id_ses1_6">
+ Entre 6 e 7 salários minímos</label>
+
+</div><div>
+    <label for="id_ses1_7"><input type="radio" name="ses1" value="ses8" required id="id_ses1_7">
+ Acima de 7 salários minímos</label>
+
+</div>
+</div>
+                </div>
+
+                <!-- SES2 -->
+                <div class="element">
+                    <label class="enunc" for="">
+                        Qual é seu grau de escolaridade?
+                    </label>
+                    <div id="id_ses2"><div>
+    <label for="id_ses2_0"><input type="radio" name="ses2" value="efi" required id="id_ses2_0">
+ Ensino Fundamental Incompleto</label>
+
+</div><div>
+    <label for="id_ses2_1"><input type="radio" name="ses2" value="efc" required id="id_ses2_1">
+ Ensino Fundamental Completo</label>
+
+</div><div>
+    <label for="id_ses2_2"><input type="radio" name="ses2" value="emi" required id="id_ses2_2">
+ Ensino Médio Incompleto</label>
+
+</div><div>
+    <label for="id_ses2_3"><input type="radio" name="ses2" value="emc" required id="id_ses2_3">
+ Ensino Médio Completo</label>
+
+</div><div>
+    <label for="id_ses2_4"><input type="radio" name="ses2" value="esi" required id="id_ses2_4">
+ Ensino Superior Incompleto</label>
+
+</div><div>
+    <label for="id_ses2_5"><input type="radio" name="ses2" value="esc" required id="id_ses2_5">
+ Ensino Superior Completo</label>
+
+</div>
+</div>
+                </div>
+
+                <!-- Religião -->
+                <div class="element">
+                    <label class="enunc" for="">
+                        
+                    </label>
+                    
+                </div>
+
+                <!-- PCD -->
+                <div class="element">
+                    <label class="enunc" for="">
+                        Você é um pessoa com deficiência?
+                        <sup class="tooltip"
+                            data-title="Inclui deficiências e neurodivergências.">
+                            &#9432;
+                        </sup>
+                    </label>
+                    <div id="id_pcd"><div>
+    <label for="id_pcd_0"><input type="radio" name="pcd" value="sim" required id="id_pcd_0">
+ Sim</label>
+
+</div><div>
+    <label for="id_pcd_1"><input type="radio" name="pcd" value="nao" required id="id_pcd_1">
+ Não</label>
+
+</div>
+</div>
+                </div>
+
+                <button class="botao-continuar" type="submit">
+                    <p>Continuar</p>
+                </button>
+            </form>
+        </main>
+    </div>
+</body>
+
+</html>

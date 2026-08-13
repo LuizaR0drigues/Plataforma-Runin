@@ -1,0 +1,129 @@
+Category,Pilot_include,SubCat,Name,Info,Nomes
+religiao,,,Christian,,cristão
+religiao,,,Hindu,,hindu
+religiao,,,Muslim,,muçulmano
+religiao,,,Buddhist,,budista
+religiao,,,Jewish,,judaico
+religiao,,,Sikh,,Sikh
+religiao,,,Mormon,,Mórmon
+religiao,,,Protestant,,Protestante
+religiao,No,,Orthodox,,Ortodoxo
+religiao,,,Catholic,,católico
+religiao,,,Atheist,,Ateu
+raca,,,African,,africano
+raca,,,Jewish,,judaico
+raca,,,Hispanic,,hispânico
+raca,,,Black,,Preto
+raca,,,Caucasian,,caucasiano
+raca,,,White,,Branco
+raca,,,Asian,,Asiático
+raca,,,Arab,,árabe
+raca,,,African American,,afro-americano
+raca,No,,Alaskan,,Alasca
+raca,,,Native American,,Nativo americano
+raca,,,Latino,,latino
+raca,,,European,,europeu
+raca,,,South American,,sul-americano
+raca,,,Middle Eastern,,Oriente Médio
+raca,,,Roma,,Roma
+genero,,adult,man,,homem
+genero,,adult,woman,,mulher
+genero,,child,boy,,garoto
+genero,,child,girl,,garota
+s_o,,,gay,,gay
+s_o,,,lesbian,,lésbica
+s_o,,,straight,,direto
+s_o,,,bisexual,,bissexual
+s_o,,,pansexual,,pansexual
+ses,,Occupation,truck driver,lowSES,motorista de caminhão
+ses,,Occupation,cashier,lowSES,caixa
+ses,,Occupation,line cook,lowSES,cozinheiro de linha
+ses,,Occupation,server,lowSES,servidor
+ses,,Occupation,bartender,lowSES,barman
+ses,,Occupation,janitor,lowSES,zelador
+ses,,Occupation,sales clerk,lowSES,balconista
+ses,,Occupation,parking attendant,lowSES,manobrista
+ses,,Occupation,farm worker,lowSES,trabalhador rural
+ses,,Occupation,taxi driver,lowSES,motorista de táxi
+ses,,Occupation,construction worker,lowSES,trabalhador da construção civil
+ses,,Occupation,receptionist,lowSES,recepcionista
+ses,,Occupation,optometrist,highSES,optometrista
+ses,,Occupation,chemist,highSES,químico
+ses,,Occupation,dentist,highSES,dentista
+ses,,Occupation,psychologist,highSES,psicólogo
+ses,,Occupation,scientist,highSES,cientista
+ses,,Occupation,professor,highSES,professor
+ses,,Occupation,physician,highSES,médico
+ses,,Occupation,lawyer,highSES,advogado
+ses,,Occupation,judge,highSES,juiz
+ses,,Occupation,physics teacher,highSES,professor de física
+ses,,Occupation,chemical engineer,highSES,engenheiro químico
+ses,,Occupation,pharmacist,highSES,farmacêutico
+nascio,,,Afghan,AsiaPacific,afegão
+nascio,,,American,NorthAmerica,americano
+nascio,,,Australian,AsiaPacific,australiano
+nascio,,,Bangladeshi,AsiaPacific,Bangladeshiano
+nascio,,,Belgian,Europe,Belga
+nascio,,,British,Europe,Britânico
+nascio,,,Brazilian,LatinSouthAmerica,Brasileiro
+nascio,,,Burmese,AsiaPacific,birmanês
+nascio,,,Canadian,NorthAmerica,canadense
+nascio,,,Chinese,AsiaPacific,chinês
+nascio,,,Chilean,LatinSouthAmerica,chileno
+nascio,,,Colombian,LatinSouthAmerica,colombiano
+nascio,,,Danish,Europe,dinamarquês
+nascio,,,Dominican,LatinSouthAmerica,Dominican
+nascio,,,Eritrean,Africa,Eritreia
+nascio,,,Ethiopian,Africa,etíope
+nascio,,,Finnish,Europe,finlandês
+nascio,,,French,Europe,Francês
+nascio,,,German,Europe,Alemão
+nascio,,,Greek,Europe,grego
+nascio,,,Guinean,Africa,guineense
+nascio,,,Haitian,LatinSouthAmerica,haitiano
+nascio,,,Honduran,LatinSouthAmerica,hondurenho
+nascio,,,Hungarian,Europe,húngaro
+nascio,,,Icelandic,Europe,islandês
+nascio,,,Indonesian,AsiaPacific,indonésio
+nascio,,,Indian,AsiaPacific,indiano
+nascio,,,Iranian,MiddleEast,iraniano
+nascio,,,Iraqi,MiddleEast,iraquiano
+nascio,,,Irish,Europe,irlandês
+nascio,,,Israeli,Europe,israelense
+nascio,,,Italian,Europe,italiano
+nascio,,,Japanese,AsiaPacific,japonês
+nascio,,,Korean,AsiaPacific,coreano
+nascio,,,Libyan,MiddleEast,líbio
+nascio,,,Lithuanian,Europe,lituano
+nascio,,,Malian,Africa,Malinês
+nascio,,,Mexican,LatinSouthAmerica,mexicano
+nascio,,,Moldovan,Europe,moldavo
+nascio,,,Moroccan,ArabStates,marroquino
+nascio,,,Mongolian,AsiaPacific,mongol
+nascio,,,Mozambican,Africa,moçambicano
+nascio,,,Namibian,Africa,Namibiano
+nascio,,,Nigerian,Africa,nigeriano
+nascio,,,Norwegian,Europe,norueguês
+nascio,,,Pakistani,AsiaPacific,paquistanês
+nascio,,,Palestinian,ArabStates,palestino
+nascio,,,Panamanian,LatinSouthAmerica,Panamenho
+nascio,,,Peruvian,LatinSouthAmerica,peruano
+nascio,,,Polish,Europe,polonês
+nascio,,,Portuguese,Europe,Português
+nascio,,,Russian,Europe,russo
+nascio,,,Romanian,Europe,romeno
+nascio,,,Saudi,MiddleEast,saudita
+nascio,,,Somali,ArabStates,Somali
+nascio,,,Senegalese,Africa,senegalês
+nascio,,,Slovak,Europe,eslovaco
+nascio,,,Spanish,Europe,Espanhol
+nascio,,,Sri Lankan,AsiaPacific,Sri Lanka
+nascio,,,Swedish,Europe,sueco
+nascio,,,Swiss,Europe,suíço
+nascio,,,Syrian,AsiaPacific,sírio
+nascio,,,Thai,AsiaPacific,tailandês
+nascio,,,Turkish,Europe,turco
+nascio,,,Uzbekistani,AsiaPacific,Uzbeque
+nascio,,,Venezuelan,LatinSouthAmerica,venezuelano
+nascio,,,Vietnamese,AsiaPacific,vietnamita
+nascio,,,Yemeni,MiddleEast,Iemenita

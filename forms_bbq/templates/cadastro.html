@@ -1,0 +1,111 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <base target="_top">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'assets/css/geral.css'%}">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h2>Criação do Perfil do Avaliador</h2>
+        </header>
+
+        <main>
+            <form action="" method="post">
+                {% csrf_token %}
+
+                <p>Seu Id: {{ form.token_pk.value }}</p>
+                {{ form.token_pk }}
+
+                <!-- Idade -->
+                <div class="element">
+                    <label class="enunc" for="{{ form.age.id_for_label }}">
+                        {{ form.age.label }}
+                    </label>
+                    {{ form.age }}
+                </div>
+
+                <!-- Gênero -->
+                <div class="element">
+                    <label class="enunc" for="{{ form.gender.id_for_label }}">
+                        {{ form.gender.label }}
+                    </label>
+                    {{ form.gender }}
+                </div>
+
+                <!-- Identidade de gênero -->
+                <div class="element">
+                    <label class="enunc" for="{{ form.igender.id_for_label }}">
+                        {{ form.igender.label }}
+                        <sup class="tooltip"
+                            data-title="Identidade de gênero: refere-se a como a pessoa se reconhece. Cisgênero: se identifica com o gênero atribuido no nascimento.
+                            Transgênero: não se identifica com o genero atribuido no nascimento.
+                            Não-binária: não se identifica estritamente com o binário.">
+                            &#9432;
+                        </sup>
+                    </label>
+                    {{ form.igender }}
+                </div>
+
+                <!-- Raça -->
+                <div class="element">
+                    <label class="enunc" for="{{ form.race.id_for_label }}">
+                        {{ form.race.label }}
+                    </label>
+                    {{ form.race }}
+                </div>
+
+                <!-- SES1 -->
+                <div class="element">
+                    <label class="enunc" for="{{ form.ses1.id_for_label }}">
+                        {{ form.ses1.label }}
+                        <sup class="tooltip"
+                            data-title="Considere o salário mínimo paulista atual. SM = R$ 1.804,00 ">
+                            &#9432;
+                        </sup>
+                    </label>
+                    {{ form.ses1 }}
+                </div>
+
+                <!-- SES2 -->
+                <div class="element">
+                    <label class="enunc" for="{{ form.ses2.id_for_label }}">
+                        {{ form.ses2.label }}
+                    </label>
+                    {{ form.ses2 }}
+                </div>
+
+                <!-- Religião -->
+                <div class="element">
+                    <label class="enunc" for="{{ form.religion.id_for_label }}">
+                        {{ form.religion.label }}
+                    </label>
+                    {{ form.religion }}
+                </div>
+
+                <!-- PCD -->
+                <div class="element">
+                    <label class="enunc" for="{{ form.pcd.id_for_label }}">
+                        {{ form.pcd.label }}
+                        <sup class="tooltip"
+                            data-title="Inclui deficiências e neurodivergências.">
+                            &#9432;
+                        </sup>
+                    </label>
+                    {{ form.pcd }}
+                </div>
+
+                <button class="botao-continuar" type="submit">
+                    <p>Continuar</p>
+                </button>
+            </form>
+        </main>
+    </div>
+</body>
+
+</html>

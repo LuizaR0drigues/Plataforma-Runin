@@ -1,0 +1,122 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <base target="_top">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Criação de Templates</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'assets/css/submit.css'%}">
+</head>
+
+<body>
+    <div class="container">
+        <header id="header-sub">
+            <h2>Criação de Novos Templates</h2>
+        </header>
+        <main>
+            <section class="form-content">
+
+                <div class="info">
+                    <p class="id">Id: {{id}}</p>
+                </div>
+                <form action="" class="form-sub" method="post">
+                    {% csrf_token %}
+
+
+                    <div class="categ">
+                        <h4>Escolha uma categoria:</h4>
+                        {{sent.categoria}}
+                    </div>
+                    <div class="sec-escrita">
+
+                        <label for="{{sent.ctxt_ambiquo.id_for_label}}">
+
+                            <h4>Contexto Ambíguo:</h4>
+                            <sup class="tooltip"
+                                data-title="Contexto Ambíguo é aquele onde não há uma clareza sobre a ação descrita.">&#9432;
+                            </sup>
+                        </label>
+                        {{ sent.ctxt_ambiquo}}
+                    </div>
+                    <div class="sec-escrita">
+
+                        <label for="{{sent.ctxt_informativo.id_for_label}}">
+                            <h4>Contexto Informativo:</h4>
+                            <sup class="tooltip"
+                                data-title="Contexto Informativo é aquele onde  há uma clareza sobre a ação descrita, sendo possível identificar os sujeitos da ação.">&#9432;</sup>
+                        </label>
+                        {{ sent.ctxt_informativo}}
+                    </div>
+                    <div class="sec-escrita">
+                        <h4>Caso considere relevante, sugira nomes/nomenclaturas:</h4>
+                        {{sent.nomes}}
+                    </div>
+                    <div class="sec-escrita">
+                        <h4>Caso considere relevante, sugira palavras que podem se adpatar a situação sugerida:</h4>
+                        {{sent.diver_lexical}}
+                    </div>
+                    <div class="sec-escrita">
+                        <h4>Quais grupos são o foco desta sentença:</h4>
+                        {{sent.categ_grupos}}
+                    </div>
+                    <div class="sec-escrita">
+
+                        <label for="{{sent.perg_ambiquo.id_for_label}}">
+                            <h4>Pergunta Ambígua:</h4>
+                            <sup class="tooltip" data-title="Questão Negativa é aquele que reflete um viès social, ou seja, possui um
+                            preconceito embutido">&#9432;</sup>
+                        </label>
+                        {{sent.perg_ambiquo}}
+                    </div>
+                    <div class="sec-escrita">
+
+                        <label for="{{sent.perg_informativa.id_for_label}}">
+                            <h4>Pergunta Informativa:</h4>
+                            <sup class="tooltip"
+                                data-title="Questão Não Negativa é aquela que não implica em nenhum preconceito..">&#9432;
+                            </sup>
+                        </label>
+                        {{sent.perg_informativa}}
+                    </div>
+
+                    <div class="sec-escrita">
+                        <label for="{{sent.resp_neg.id_for_label}}">
+                            <h4>Resposta Negativa</h4>
+                            <sup class="tooltip"
+                                data-title="Resposta Negativa é aquela que reflete um viès social, ou seja, possui um preconceito embutido">&#9432;</sup>
+                           </label>
+                                {{sent.resp_neg}}
+                    </div>
+                    <div class="sec-escrita">
+                        <label for="{{sent.resp_n_neg.id_for_label}}">
+                            <h4>Resposta Não Negativa:</h4>
+                            <sup class="tooltip"
+                                data-title="Resposta Não Negativa é aquela que não implica em nenhum preconceito..">&#9432;
+                            </sup>
+                        </label>
+                        {{sent.resp_n_neg}}
+                    </div>
+
+                    <div class="sec-escrita">
+                        <h4>Relevância Social:</h4>
+                        {{sent.relev_social}}
+                    </div>
+
+                    <div class="botao">
+                        <button type="submit" id="continuar" name="decisao" value="Sim">
+                            Continuar
+                        </button>
+                        <button type="submit" id="finalizar" name="decisao" value="Nao">
+                            Finalizar
+                        </button>
+                    </div>
+                </form>
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>

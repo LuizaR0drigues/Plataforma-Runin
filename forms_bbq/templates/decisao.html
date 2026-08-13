@@ -1,0 +1,35 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <base target="_top">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Menu de Decisão para criar ou não novos templaes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'assets/css/submit.css'%}">
+</head>
+
+<body>
+    <div class="container-small">
+
+        <header>
+            <h2>Criação de Novas Sentenças</h2>
+            </header>
+            <main class="decisao" alt="Seção onde é possível escolher escrever novos templates">
+                <p>Agora que você ja avaliou nossos templates e entende a sua estrutura e foco, gostaria de criar seu
+                    próprio templates e nos ajudar a fortalecer o nosso benchmarking?
+                </p>
+                <!-- Forms de decisao -->
+                <form action="{% url 'forms_bbq:decisao' %}" method="post">
+                    {% csrf_token %}
+                    <div class="botao">
+                        <button id="criar" type="submit" name="decisao" value="Sim">Criar Template</button>
+                        <button id="finalizar" type="submit" name="decisao" value="Nao">Finalizar</button>
+                    </div>
+                </form>
+    </div>
+</body>
+
+</html>

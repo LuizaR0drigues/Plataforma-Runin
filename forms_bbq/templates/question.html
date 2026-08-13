@@ -1,0 +1,157 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <base target="_top">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Avaliação de Templates</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'assets/css/forms.css' %}">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h2>Validação de Templates</h2>
+        </header>
+        <main>
+            <section class="form-content">
+
+                <!-- INFO -->
+                <div class="info">
+                    <p class="pagina">Questão {{pagina}}/20</p>
+                    <p class="id">Id: <b>{{id}}</b></p>
+                    <h3>Categoria: {{pergunta.Categoria}} - Id: {{pergunta.Id}}</h3>
+                    <p>Palavras importantes para os contextos:</p>
+                    <div class="info-words">
+
+                        {% for chave, conteudo in info.items %}
+                        <div class="linha">
+                            <div class="chave"><b>{{chave}}</b></div>
+                            <div class="conteudo">
+                                <p>{{conteudo}}</p>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+
+                    <p>{{aviso}}</p>
+                </div>
+
+                <!-- CONTEXTOS -->
+                <div class="contextos">
+
+                    <!-- AMBIGUO -->
+                    <div class="contexto-bloco">
+                        <h4>
+                            Contexto Ambíguo
+                            <sup class="tooltip" data-title="Contexto sem clareza da ação">&#9432;</sup>
+                        </h4>
+
+                        <div class="content">
+                            <div class="eng">
+                                <p>{{ pergunta.Eng.Ambiguous_Context }}</p>
+                            </div>
+                            <div class="ptbr">
+                                <p>{{ pergunta.Ptbr.Contexto_Ambiguous }}</p>
+                            </div>
+                        </div>
+
+                        <!-- PERGUNTA -->
+                        <div class="perguntas">
+                            <h4>Pergunta Negativa</h4>
+                            <div class="type-question">
+                                <div class="eng">
+                                    <p>{{ pergunta.Eng.Question_negative_stereotype }}</p>
+                                </div>
+                                <div class="ptbr">
+                                    <p class="quest">{{ pergunta.Ptbr.Questao_negativa_stereotype }}</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- RESPOSTA -->
+                        <div class="respostas">
+                            <h4>Resposta Negativa</h4>
+                            <div class="type-answer">
+                                <div class="eng">
+                                    <p>{{ pergunta.Eng.Answer_negative }}</p>
+                                </div>
+                                <div class="ptbr">
+                                    <p class="quest">{{ pergunta.Ptbr.Resposta_negativa }}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Informativo -->
+                    <div class="contexto-bloco">
+                        <h4>
+                            Contexto Informativo
+                            <sup class="tooltip"
+                                data-title="Contexto onde é possível identificar os agentes da ação">&#9432;</sup>
+                        </h4>
+
+                        <div class="content">
+                            <div class="eng">
+                                <p>{{ pergunta.Eng.Disambiguating_Context }}</p>
+                            </div>
+                            <div class="ptbr">
+                                <p>{{ pergunta.Ptbr.Contexto_Disambiguating }}</p>
+                            </div>
+                        </div>
+
+                        <!-- PERGUNTA -->
+                        <div class="perguntas">
+                            <h4>Pergunta Negativa</h4>
+                            <div class="type-question">
+                                <div class="eng">
+                                    <p>{{ pergunta.Eng.Question_negative_stereotype }}</p>
+                                </div>
+                                <div class="ptbr">
+                                    <p class="quest">{{ pergunta.Ptbr.Questao_negativa_stereotype }}</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- RESPOSTA -->
+                        <div class="respostas">
+                            <h4>Resposta Negativa</h4>
+                            <div class="type-answer">
+                                <div class="eng">
+                                    <p>{{ pergunta.Eng.Answer_negative }}</p>
+                                </div>
+                                <div class="ptbr">
+                                    <p class="quest">{{ pergunta.Ptbr.Resposta_negativa }}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- FORM -->
+                <form class="form-validacao" method="post" action="{% url 'forms_bbq:proximo_template' %}">
+                    {% csrf_token %}
+
+                    <div class="div-commit">
+                        <h4>Validação:</h4>
+                        {{ forms.as_p }}
+                    </div>
+
+                    <div class="botao">
+                        <button id="voltar" type="reset">Voltar</button>
+                        <button id="continuar" type="submit">Próxima</button>
+
+                    </div>
+
+                </form>
+
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>

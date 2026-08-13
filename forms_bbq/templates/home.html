@@ -1,0 +1,156 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <base target="_top">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apresentação da Plataforma</title>
+  <link rel="stylesheet" href="{% static 'assets/css/geral.css'  %}">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1 class="title">Validação do Dataset Br-BBQ</h1>
+    </header>
+    <main>
+      <section class="intro">
+
+        <p>
+          O <b>Brazilian Bias Benchmark for QA dataset (Br-BBQ)</b> é um projeto vinculado ao Giva Lab e Instituto de
+          Ciências
+          Matemáticas e Computação, ICMC-USP, que tem por objetivo avaliar a presença de vieses sociais em Large
+          Language
+          Models(LLMs), em
+          específico, para o Português Brasileiro. O desenvolvimento destes modelos e ajustes de segurança são
+          predominantemente feitos em Inglês, causando performances inconsistentes em demais idiomas. Atrelado a isso,
+          os LLMs aprendem com os seus dados de treinamento, consequentemente, reproduzem os vieses sociais que
+          permeiam os dados.
+        </p>
+        <p>
+          O Brazilian Bias Benchmark for QA(Br- BBQ), surge para estudar estes vieses sociais no contexto do Brasil,
+          sendo uma adaptação do dataset BBQ, que inicialmente,foi desenvolvido para identificar vieses sociais em
+          LLMs
+          em
+          inglês e ao contexto cultural dos Estados Unidos.
+        </p>
+        <p>
+          O primeiro passo desta adaptação do dataset original foi a tradução automática dos templates que abrangem as
+          seguintes categorias: Idade, Aparência Física, Nacionalidade, Orientação Sexual, Status Socioeconômico,
+          Raça/Etnia, Religião e Identidade de Gênero, e suas intersecções, Raça x Identidade de Gênero e Raça x
+          Status
+          Socioeconômico.
+        </p>
+      </section>
+      <section class="construc">
+        <h3>Construção dos Templates</h3>
+        <p>Cada template é composto por:</p>
+        <ul>
+          <li><b>Contexto Ambíguo:</b> é aquele onde não há clareza sobre a ação descrita, não sendo possível
+            identificar
+            o autor da ação. Para este contexto, a resposta correta sempre será “Desconhecido” e correlatos.</li>
+
+          <li><b>Contexto Informativo:</b> é aquele onde há uma clareza sobre a ação descrita, sendo possível
+            identificar
+            os sujeitos da ação.</li>
+          <li><b>Pergunta Negativa:</b> é aquela que reflete um viés social</li>
+          <li><b>Pergunta Não Negativa:</b> é aquela não implica em nenhum viés social</li>
+          <li><b>Resposta Negativa:</b> é aquela que reflete um viés social</li>
+          <li><b>Resposta Não Negativa:</b> é aquela não implica em nenhum viés social</li>
+        </ul>
+
+        <figure class="image-home">
+          <img src="{% static 'assets/img/diagrama.svg' %}"
+            alt="Imagem que descreve a construção dos templates do dataset Br-BBQ">
+          <figcaption>Imagem: Exemplo de construção do template do dataset Br-BBQ</figcaption>
+        </figure>
+      </section>
+
+      <section class="criacao">
+        <h3>Criação de Perfil</h3>
+        <p>
+          Para a criação de perfil basta responder ao formulário da seção “Criação de Perfil do Avaliador”, onde a
+          partir das respostas coletadas, <b>de forma anônima</b>, estimamos quais categorias se adequam ao perfil de
+          cada avaliador e possuem
+          maior relevância para a sua posição na sociedade. Toda coleta realizada nesta seção é feita de forma
+          <b>anônima</b>, sendo utilizada somente para o sorteio de perguntas.
+        </p>
+        <div class="iframe">
+          <div class="scroll-box">
+            
+            {% include 'ex_cadastro.html' %}
+          </div>
+          <p>Exemplo da Tela de Criação de Perfil do Avaliador</p>
+        </div>
+
+
+      </section>
+
+      <section class="aval">
+        <h3>Avaliação dos Templates</h3>
+        <p>
+          Como mencionado anteriormente, há 11 categorias disponíveis, onde cada usuário receberá aquelas que melhor
+          se
+          adéquam a sua posição social. Cada usuário poderá avaliar 20 templates dentre as categorias <i>Idade,
+            Aparência Física, Nacionalidade, Orientação Sexual, Status Socioeconômico,
+            Raça/Etnia, Religião e Identidade de Gênero, e sua intersecções, Raça x Identidade de Gênero e Raça x
+            Status
+            Socioeconômico.</i>
+        </p>
+        <p>
+          Ao lado esquerdo da tela, encontra-se a versão original, em inglês, e ao lado
+          direito, a tradução automática dos templates.
+          O usuário deve ler cada seção e analisar a tradução automática, verificando se está de acordo com o contexto
+          brasileiro e o idioma português. Ao final da página, há um formulário, onde o usuário submeterá sua
+          resposta,
+          e caso considere necessário, uma adaptação ou observação que ache relevante.
+        </p>
+
+        <div class="iframe">
+          <div class="scroll-box">
+
+            {% include 'ex_validacao.html' %}
+          </div>
+          <p>Exemplo da Tela de Validação de Templates</p>
+        </div>
+      </section>
+
+      <section class="sugestao">
+        <h3>Sugestão de Templates</h3>
+        <p>
+          Caso o avaliador queira enriquecer o dataset, ele poderá criar seu próprio template de acordo com as
+          categorias do dataset. Para isso, basta escolher a opção "Criar Templates", onde ele será redirecionado para
+          a
+          página.
+        </p>
+        <p> Nesta seção, basta que o avaliador submeta uma descrição do Contexto Ambíguo, Contexto Informativo,
+          Nomenclaturas,
+          Variedade de Palavras, os possíveis grupos que podem fazer parte do contexto descrito, as perguntas
+          (Negativas
+          e Não
+          Negativas) e qual a relevância social do template sugerido.
+        </p>
+        <div class="iframe">
+          <div class="scroll-box">
+
+            {% include 'ex_sugestao.html' %}
+
+          </div>
+          <p>Exemplo da Tela de Sugestao de Templates</p>
+        </div>
+      </section>
+      <div class="botao">
+      <button class="botao-continuar">
+        <a href="{% url 'forms_bbq:termo' %}">
+          Continuar
+        </a>
+      </button>
+      </div>
+    </main>
+  </div>
+</body>
+
+</html>

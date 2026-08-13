@@ -1,0 +1,157 @@
+{% load static %}
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <base target="_top">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Criação de Templates</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/assets/css/submit.css">
+</head>
+
+<body>
+    <div class="container">
+        <header id="header-sub">
+            <h2>Criação de Novos Templates</h2>
+        </header>
+        <main>
+            <section class="form-content">
+
+                <div class="info">
+                    <p class="id">Id: da6bd355-1c68-4d06-ac28-3a152084a179</p>
+                </div>
+                <form action="" class="form-sub" method="post">
+                    <input type="hidden" name="csrfmiddlewaretoken" value="SG1F8aN0c6lShCd1P1HuFG8hlgp3Kf2ySqbebDEWJnk11WSC5Bct1CdVHu37A8hm">
+
+
+                    <div class="categ">
+                        <h4>Escolha uma categoria:</h4>
+                        <select name="categoria" id="id_categoria">
+  <option value="nationality">Xenofobia</option>
+
+  <option value="religion">Intolerância Religiosa</option>
+
+  <option value="sexual_orient">Orientação Sexual</option>
+
+  <option value="race_gender">Intersecção entre Racismo e Gênero/Identidade de Gênero</option>
+
+  <option value="ses">Status Socioecônomico/Elitismo</option>
+
+  <option value="race_ses">Intersecção entre Racismo e Status Socioecônomico</option>
+
+  <option value="gender">Gênero/Identidade de Gênero</option>
+
+  <option value="age">Etarismo</option>
+
+  <option value="race">Racismo</option>
+
+  <option value="physical">Aparência Física</option>
+
+  <option value="disability">Capacitismo</option>
+
+</select>
+                    </div>
+                    <div class="sec-escrita">
+
+                        <label for="id_ctxt_ambiquo">
+
+                            <h4>Contexto Ambíguo:</h4>
+                            <sup class="tooltip"
+                                data-title="Contexto Ambíguo é aquele onde não há uma clareza sobre a ação descrita.">&#9432;
+                            </sup>
+                        </label>
+                        <textarea name="ctxt_ambiquo" cols="40" rows="10" class="commit-sugestoes" required id="id_ctxt_ambiquo">
+</textarea>
+                    </div>
+                    <div class="sec-escrita">
+
+                        <label for="id_ctxt_informativo">
+                            <h4>Contexto Informativo:</h4>
+                            <sup class="tooltip"
+                                data-title="Contexto Informativo é aquele onde  há uma clareza sobre a ação descrita, sendo possível identificar os sujeitos da ação.">&#9432;</sup>
+                        </label>
+                        <textarea name="ctxt_informativo" cols="40" rows="10" class="commit-sugestoes" required id="id_ctxt_informativo">
+</textarea>
+                    </div>
+                    <div class="sec-escrita">
+                        <h4>Caso considere relevante, sugira nomes/nomenclaturas:</h4>
+                        <textarea name="nomes" cols="40" rows="10" class="commit-sugestoes" required id="id_nomes">
+</textarea>
+                    </div>
+                    <div class="sec-escrita">
+                        <h4>Caso considere relevante, sugira palavras que podem se adpatar a situação sugerida:</h4>
+                        <textarea name="diver_lexical" cols="40" rows="10" class="commit-sugestoes" required id="id_diver_lexical">
+</textarea>
+                    </div>
+                    <div class="sec-escrita">
+                        <h4>Quais grupos são o foco desta sentença:</h4>
+                        <textarea name="categ_grupos" cols="40" rows="10" class="commit-sugestoes" required id="id_categ_grupos">
+</textarea>
+                    </div>
+                    <div class="sec-escrita">
+
+                        <label for="id_perg_ambiquo">
+                            <h4>Pergunta Ambígua:</h4>
+                            <sup class="tooltip" data-title="Questão Negativa é aquele que reflete um viès social, ou seja, possui um
+                            preconceito embutido">&#9432;</sup>
+                        </label>
+                        <textarea name="perg_ambiquo" cols="40" rows="10" class="commit-sugestoes" required id="id_perg_ambiquo">
+</textarea>
+                    </div>
+                    <div class="sec-escrita">
+
+                        <label for="id_perg_informativa">
+                            <h4>Pergunta Informativa:</h4>
+                            <sup class="tooltip"
+                                data-title="Questão Não Negativa é aquela que não implica em nenhum preconceito..">&#9432;
+                            </sup>
+                        </label>
+                        <textarea name="perg_informativa" cols="40" rows="10" class="commit-sugestoes" required id="id_perg_informativa">
+</textarea>
+                    </div>
+
+                    <div class="sec-escrita">
+                        <label for="id_resp_neg">
+                            <h4>Resposta Negativa</h4>
+                            <sup class="tooltip"
+                                data-title="Resposta Negativa é aquela que reflete um viès social, ou seja, possui um preconceito embutido">&#9432;</sup>
+                           </label>
+                                <textarea name="resp_neg" cols="40" rows="10" class="commit-sugestoes" required id="id_resp_neg">
+</textarea>
+                    </div>
+                    <div class="sec-escrita">
+                        <label for="id_resp_n_neg">
+                            <h4>Resposta Não Negativa:</h4>
+                            <sup class="tooltip"
+                                data-title="Resposta Não Negativa é aquela que não implica em nenhum preconceito..">&#9432;
+                            </sup>
+                        </label>
+                        <textarea name="resp_n_neg" cols="40" rows="10" class="commit-sugestoes" required id="id_resp_n_neg">
+</textarea>
+                    </div>
+
+                    <div class="sec-escrita">
+                        <h4>Relevância Social:</h4>
+                        <textarea name="relev_social" cols="40" rows="10" class="commit-sugestoes" required id="id_relev_social">
+</textarea>
+                    </div>
+
+                    <div class="botao">
+                        <button type="submit" id="continuar" name="decisao" value="Sim">
+                            Continuar
+                        </button>
+                        <button type="submit" id="finalizar" name="decisao" value="Nao">
+                            Finalizar
+                        </button>
+                    </div>
+                </form>
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>
