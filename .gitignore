@@ -1,8 +1,7 @@
-
-/.djangovenv
-/forms/__pycache__
-/forms_bbq/__pycache__
-/forms_bbq/migrations/__pycache__
-/Plataforma-Runin/.env
-/.venv
+.venv/
+.djangovenv/
 .env
+db.sqlite3
+.git
+__pycache__/
+staticfiles/
