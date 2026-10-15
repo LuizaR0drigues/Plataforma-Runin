@@ -127,18 +127,20 @@ class perfil_bbq(forms.Form):
 
 class Validacao_perfil(forms.Form):
     VALID_CHOICES = [
-            ('sim', 'Sim'),
-            ('nao', 'Não')
+            ('1', 'Sim'),
+            ('0', 'Não')
     ]
     #id_perfil = forms.UUIDField(initial=uuid.uuid4, widget=forms.HiddenInput(), label="Identificacao do Usuario")
     #id_questao = forms.CharField()
-    is_valid = forms.ChoiceField(required=True,
+    is_valid = forms.TypedChoiceField(required=True,
                                  widget=forms.RadioSelect,
                                  choices=VALID_CHOICES,
+                                 coerce=lambda valor: valor == '1',
                                  label='Você concorda com as traduções acima?')
-    adaptacao = forms.ChoiceField(required=True,
+    adaptacao = forms.TypedChoiceField(required=True,
                                   widget=forms.RadioSelect,
                                   choices=VALID_CHOICES,
+                                  coerce=lambda valor: valor == '1',
                                   label="Você considera que este template é adequado ao contexto brasileiro?")
     resposta = forms.CharField(label='Caso você considere necessário, sugira uma adaptação ou uma indicação para melhoria do template', required=False, widget=forms.Textarea(attrs={'class': 'commit'})) #opção em que o user pode adicionar sua opiniao
     

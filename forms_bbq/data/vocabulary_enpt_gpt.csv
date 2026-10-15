@@ -1,0 +1,129 @@
+,Category,Pilot_include,SubCat,Name,Info,Nomes
+1,religiao,,,Christian,,Cristão
+2,religiao,,,Hindu,,Hindu
+3,religiao,,,Muslim,,Muçulmano
+4,religiao,,,Buddhist,,Budista
+5,religiao,,,Jewish,,Judeu
+6,religiao,,,Sikh,,Sikh
+7,religiao,,,Mormon,,Mormon
+8,religiao,,,Protestant,,Protestante
+9,religiao,No,,Orthodox,,Ortodoxo
+10,religiao,,,Catholic,,Católico
+11,religiao,,,Atheist,,Ateu
+12,raca,,,African,,Africano
+13,raca,,,Jewish,,Judeu
+14,raca,,,Hispanic,,Hispânico
+15,raca,,,Black,,Negro
+16,raca,,,Caucasian,,Caucasiano
+17,raca,,,White,,Branco
+18,raca,,,Asian,,Asiático
+19,raca,,,Arab,,Árabe
+20,raca,,,African American,,Afro-americano
+21,raca,No,,Alaskan,,Alasquiano
+22,raca,,,Native American,,Indígena norte-americano
+23,raca,,,Latino,,Latino
+24,raca,,,European,,Europeu
+25,raca,,,South American,,Sul-americano
+26,raca,,,Middle Eastern,,Oriente Médio
+27,raca,,,Roma,,Roma
+28,genero,,adult,man,,homem
+29,genero,,adult,woman,,mulher
+30,genero,,child,boy,,menino
+31,genero,,child,girl,,menina
+32,s_o,,,gay,,gay
+33,s_o,,,lesbian,,lésbica
+34,s_o,,,straight,,heterossexual
+35,s_o,,,bisexual,,bissexual
+36,s_o,,,pansexual,,pansexual
+37,ses,,Occupation,truck driver,lowses,motorista de caminhão
+38,ses,,Occupation,cashier,lowses,caixa
+39,ses,,Occupation,line cook,lowses,cozinheiro
+40,ses,,Occupation,server,lowses,garçom
+41,ses,,Occupation,bartender,lowses,bartender
+42,ses,,Occupation,janitor,lowses,zelador
+43,ses,,Occupation,sales clerk,lowses,balconista
+44,ses,,Occupation,parking attendant,lowses,manobrista
+45,ses,,Occupation,farm worker,lowses,trabalhador rural
+46,ses,,Occupation,taxi driver,lowses,motorista de táxi
+47,ses,,Occupation,construction worker,lowses,trabalhador da construção civil
+48,ses,,Occupation,receptionist,lowses,recepcionista
+49,ses,,Occupation,optometrist,highses,optometrista
+50,ses,,Occupation,chemist,highses,químico
+51,ses,,Occupation,dentist,highses,dentista
+52,ses,,Occupation,psychologist,highses,psicólogo
+53,ses,,Occupation,scientist,highses,cientista
+54,ses,,Occupation,professor,highses,professor
+55,ses,,Occupation,physician,highses,médico
+56,ses,,Occupation,lawyer,highses,advogado
+57,ses,,Occupation,judge,highses,juiz
+58,ses,,Occupation,physics teacher,highses,professor de física
+59,ses,,Occupation,chemical engineer,highses,engenheiro químico
+60,ses,,Occupation,pharmacist,highses,farmacêutico
+61,nascio,,,Afghan,AsiaPacific,Afegão
+62,nascio,,,American,NorthAmerica,Americano
+63,nascio,,,Australian,AsiaPacific,Australiano
+64,nascio,,,Bangladeshi,AsiaPacific,Bangladeshiano
+65,nascio,,,Belgian,Europe,Belga
+66,nascio,,,British,Europe,Britânico
+67,nascio,,,Brazilian,LatinSouthAmerica,Brasileiro
+68,nascio,,,Burmese,AsiaPacific,Birmanês
+69,nascio,,,Canadian,NorthAmerica,Canadense
+70,nascio,,,Chinese,AsiaPacific,Chinês
+71,nascio,,,Chilean,LatinSouthAmerica,Chileno
+72,nascio,,,Colombian,LatinSouthAmerica,Colombiano
+73,nascio,,,Danish,Europe,Dinamarquês
+74,nascio,,,Dominican,LatinSouthAmerica,Dominicano
+75,nascio,,,Eritrean,Africa,Eritreu
+76,nascio,,,Ethiopian,Africa,Etíope
+77,nascio,,,Finnish,Europe,Finlandês
+78,nascio,,,French,Europe,Francês
+79,nascio,,,German,Europe,Alemão
+80,nascio,,,Greek,Europe,Grego
+81,nascio,,,Guinean,Africa,Guineense
+82,nascio,,,Haitian,LatinSouthAmerica,Haitiano
+83,nascio,,,Honduran,LatinSouthAmerica,Hondurenho
+84,nascio,,,Hungarian,Europe,Húngaro
+85,nascio,,,Icelandic,Europe,Islandês
+86,nascio,,,Indonesian,AsiaPacific,Indonésio
+87,nascio,,,Indian,AsiaPacific,Indiano
+88,nascio,,,Iranian,MiddleEast,Iraniano
+89,nascio,,,Iraqi,MiddleEast,Iraquiano
+90,nascio,,,Irish,Europe,Irlandês
+91,nascio,,,Israeli,Europe,Israelense
+92,nascio,,,Italian,Europe,Italiano
+93,nascio,,,Japanese,AsiaPacific,Japonês
+94,nascio,,,Korean,AsiaPacific,Coreano
+95,nascio,,,Libyan,MiddleEast,Líbio
+96,nascio,,,Lithuanian,Europe,Lituano
+97,nascio,,,Malian,Africa,Maliano
+98,nascio,,,Mexican,LatinSouthAmerica,Mexicano
+99,nascio,,,Moldovan,Europe,Moldavo
+100,nascio,,,Moroccan,ArabStates,Marroquino
+101,nascio,,,Mongolian,AsiaPacific,Mongol
+102,nascio,,,Mozambican,Africa,Moçambicano
+103,nascio,,,Namibian,Africa,Namibiano
+104,nascio,,,Nigerian,Africa,Nigeriano
+105,nascio,,,Norwegian,Europe,Norueguês
+106,nascio,,,Pakistani,AsiaPacific,Paquistanês
+107,nascio,,,Palestinian,ArabStates,Palestino
+108,nascio,,,Panamanian,LatinSouthAmerica,Panamenho
+109,nascio,,,Peruvian,LatinSouthAmerica,Peruano
+110,nascio,,,Polish,Europe,Polonês
+111,nascio,,,Portuguese,Europe,Português
+112,nascio,,,Russian,Europe,Russo
+113,nascio,,,Romanian,Europe,Romeno
+114,nascio,,,Saudi,MiddleEast,Saudita
+115,nascio,,,Somali,ArabStates,Somali
+116,nascio,,,Senegalese,Africa,senegalês
+117,nascio,,,Slovak,Europe,Eslovaco
+118,nascio,,,Spanish,Europe,Espanhol
+119,nascio,,,Sri Lankan,AsiaPacific,Cingalês
+120,nascio,,,Swedish,Europe,Sueco
+121,nascio,,,Swiss,Europe,Suíço
+122,nascio,,,Syrian,AsiaPacific,Sírio
+123,nascio,,,Thai,AsiaPacific,Tailandês
+124,nascio,,,Turkish,Europe,Turco
+125,nascio,,,Uzbekistani,AsiaPacific,Uzbeque
+126,nascio,,,Venezuelan,LatinSouthAmerica,Venezuelano
+127,nascio,,,Vietnamese,AsiaPacific,Vietnamita
+128,nascio,,,Yemeni,MiddleEast,Iemenita

@@ -27,48 +27,7 @@ def bbq_sugerir(request):
     form_sugest  = forms.Submissao_sentenças(request.POST)
     return render(request, 'sugestoes.html', {'sent':form_sugest})
 
-'''
-def bbq_cadastro(request):
-    
-    Renderiza a pagina de cadastro do formulario e verifica se já houve resposta pelo usuário
-    
-    if 'cadastro_ok' in request.session:
-        request.session.pop('token_pk', None)
-        request.session.pop('perfil_user', None)
-        request.session.pop('cadastro_ok', None)
 
-    #obtem o identificador do usuário, se já existir
-    id = request.session.get('token_pk')
-    
-    #gera um novo identificador
-    if not id:
-        id = str(uuid.uuid4())
-        request.session['token_pk'] = id
-
-    if request.method =='POST':
-        form  = forms.perfil_bbq(request.POST, initial={'token_pk':id})
-        
-        if form.is_valid():
-            perfil = form.cleaned_data #salva os dados, como um dict ,na memoria
-            print("Uuid:" ,perfil)
-            perfil_cpy = perfil.copy()
-            if 'token_pk' in perfil_cpy:
-                perfil_cpy['token_pk'] = str(perfil_cpy['token_pk']) #corrigindo o objt uuid
-            #armazena o perfil e token na sessao
-            request.session['perfil_user'] = perfil_cpy
-            request.session['token_pk'] = id
-            request.session['cadastro_ok'] = True
-            return redirect('forms_bbq:iniciar_perguntas')
-        else:
-            
-            print(form.errors)
-    else:
-        
-        form = forms.perfil_bbq(initial={'token_pk': id})
-        request.session['token_pk'] = id
-    
-    return render(request, 'cadastro.html', {'form': form})
-'''
 def render_termo(request):
 
     if request.method == "POST":
@@ -149,15 +108,17 @@ def salva_distribuicao_bd(request):
     categorias =  user.getCategorias()
     #salvando os dados prob no bd
     cat_bd = categorias.copy()
-   
+    print("\nCat_bd",cat_bd)
     request.session['token_pk'] = user.getId()
     bd.perfil_bbq.objects.create(token_pk = user.getId(),
-                                 age = cat_bd['idade'],
+                                 idade = cat_bd['idade'],
                                  raca = cat_bd['raca'],
-                                 gender = cat_bd['genero'],
+                                 genero = cat_bd['genero'],
                                  pcd = cat_bd['pcd'],
                                  raca_gen = cat_bd['raca_gen'],
-                                 raca_ses = cat_bd['ses_raca'],
+                                 ses_raca = cat_bd['ses_raca'],
+                                 ses =  cat_bd['ses'],
+                                 religiao = cat_bd['religiao'],
                                  s_o = cat_bd['s_o'],
                                  nascio = cat_bd['nascio'],
                                  ap_fis = cat_bd['ap_fis'],
@@ -267,10 +228,12 @@ def proxima_perguntas(request):
     if formulario.is_valid():
         #limpa os dados do forms
         valid_y_n = formulario.cleaned_data['is_valid']
+        trad_y_n = formulario.cleaned_data['adaptacao']
         opiniao = formulario.cleaned_data['resposta']
 
         #salvando os dados do forms na memoria
         request.session['valid_y_n'] = valid_y_n
+        request.session['trad_y_n'] = trad_y_n
         request.session['opiniao'] = opiniao
 
         request.session['index_perg'] = request.session.get('index_perg', 0) + 1
@@ -286,6 +249,7 @@ def cadastro_validacao(request):
     id_user =  user.getId()
     
     resp_valid = request.session.get('valid_y_n')
+    resp_adapt = request.session.get('trad_y_n')
     opiniao = request.session.get('opiniao')
     
     id_questao = request.session.get('id_questao')
@@ -298,6 +262,7 @@ def cadastro_validacao(request):
     bd.opiniao_perfil.objects.update_or_create(id_perfil = perfil,
                                      id_questao = id_questao,
                                      y_n_valid = resp_valid,
+                                     y_n_trad = resp_adapt,
                                      resposta = opiniao)
     print("Id_user: ", id_user, "Id_quest: ", id_questao)
 

@@ -3,6 +3,22 @@ import json
 from . import utils
 from collections import defaultdict
 
+
+NOMES_CATEGORIAS = {
+    'genero':   'Gênero',
+    'raca':     'Raça/Etnia',
+    'pcd':      'Pessoa com deficiência',
+    'raca_gen': 'Raça e gênero',
+    'ses_raca': 'Raça e nível socioeconômico',
+    'ses':      'Nível socioeconômico',
+    'idade':    'Idade',
+    'religiao': 'Religião',
+    's_o':      'Orientação sexual',
+    'ap_fis':   'Aparência física',
+    'nascio':   'Nacionalidade',
+}
+
+
 class Classifica_perfil:
     def __init__(self, usuario):
         self.perfil = usuario
@@ -186,7 +202,7 @@ class Perguntas:
         self.arquivo = arquivo
         self.categ = categoria
         self.identificador = linha['Q_id'] #carrega a categoria, numero e variação
-        self.cont = int(linha['Contador'])  #por padrão é 0 - str
+        
         self.sect_eng = sect_eng
         self.sect_pt = sect_pt
         self.linha = linha
@@ -195,19 +211,16 @@ class Perguntas:
     def get_categ(self): return self.categ
     def get_arquivo(self): return self.arquivo
     def get_id(self): return self.identificador
-    def get_cont(self): return int(self.cont)
+    
     def get_eng(self): return self.sect_eng
     def get_ptbr(self): return self.sect_pt
     def get_linha(self): return self.linha
 
-    def set_cont(self, value):
-        self.cont = value
-        self.linha['Contador'] = value
     
     def perg_format(self): #formato de visualização
         return({
                 'Id': self.identificador,
-                'Categoria':self.categ, 
+                'Categoria':NOMES_CATEGORIAS.get(self.categ, self.categ), 
                 'Eng':self.sect_eng, 
                 'Ptbr': self.sect_pt})
     def resumo(self):
@@ -221,13 +234,13 @@ class Perguntas:
         'Question_non_negative','Answer_negative','Answer_non_negative',
         'Relevant_social_values','Known_stereotyped_groups','Contexto_Ambiguous',
         'Contexto_Disambiguating','Nomes','Diversidade_lexical',
-        'Questao_negativa_stereotype','Questao_nao_negativa','Resposta_negativa',
-        'Resposta_nao_negativa','Relevancia_social', 'grupos_esteriotipado'
+        'Questao_negativa','Questao_nao_negativa','Resposta_negativa',
+        'Resposta_nao_negativa','Relevancia_social', 'grupos_estereotipado'
         ]
         
         col_eng = colunas[2:11]
         col_pt = colunas[12:21]
-        str_replace = ['Contexto_Ambiguous','Contexto_Disambiguating','Questao_negativa_stereotype','Questao_nao_negativa','Resposta_negativa','Resposta_nao_negativa']
+        str_replace = ['Contexto_Ambiguous','Contexto_Disambiguating','Questao_negativa','Questao_nao_negativa','Resposta_negativa','Resposta_nao_negativa']
 
         section_eng = {col: linha[col] for col in col_eng if col in linha}
         section_pt = {col: linha[col] for col in col_pt if col in linha}
@@ -296,7 +309,7 @@ class Perguntas:
                     section_pt[chave] = section_pt[chave].replace('{{WORD1}}', '{{PALAVRA1}}')
                 if '{{WORD2}}' in section_pt[chave]:
                     section_pt[chave] = section_pt[chave].replace('{{WORD2}}', '{{PALAVRA2}}')
-
+        print(linha)
         # Retorna a instância da classe criada com os dados limpos
         return cls(linha, arq, cat, section_eng, section_pt)
     
@@ -304,7 +317,7 @@ class Perguntas:
         obj = cls()
         obj.set_categoria(dados['Categoria'])
         obj.set_template(dados['Template'])
-        obj.set_cont(dados['Cont'])
+        
 
         return obj
 
@@ -354,9 +367,14 @@ class Avaliador():
     def vinculaPerguntas(self):
         
         categorias = self.getCategorias()
-        dados = utils.readCSV(categorias)
-        
-        #agrupando as categorias de acordo com os pesos
+
+        #lista com os ids que devemos pegar para a leitura 
+        lista_ids_perg = utils.readGerenciador(categorias)
+        #perguntas sorteadas
+        perguntas = utils.readCSV(lista_ids_perg)
+
+
+        '''#agrupando as categorias de acordo com os pesos
         agrupado = defaultdict(list)
         for categoria, peso in categorias.items():
             agrupado[peso].append(categoria)
@@ -448,13 +466,11 @@ class Avaliador():
             if len(perguntas) >= MIN_PERGUNTAS and len(perguntas) == perguntas_antes_iteracao:
                 break
         #realizando alguns tratamentos
-        
+        '''
         copia_perg = [x.perg_format() for x in perguntas]
         tab_avisos = defaultdict(list)
         
-        i = -1
         for x in copia_perg:
-            i+=1
             
             for chave, valor in x.items():
                 
@@ -472,12 +488,15 @@ class Avaliador():
                             #print('NAO TEM OCC1 ou GEN1')
                             break
 
-        #subescreve o csv
-        utils.writeCSV(dados)
+        print("\nDados:", perguntas)
+       
+        
         self.templates_select = perguntas
         self.tab_avisosTemplate = tab_avisos
         return tab_avisos, perguntas
+
     
+                            
     def recupera_dados(self):
         return {
             'token_pk': str(self.id),

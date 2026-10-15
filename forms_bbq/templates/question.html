@@ -47,7 +47,8 @@
                     <div class="contexto-bloco">
                         <h4>
                             Contexto Ambíguo
-                            <sup class="tooltip" data-title="Contexto sem clareza da ação">&#9432;</sup>
+                            <sup class="tooltip"
+                                data-title="Contexto quem não apresenta com clareza a situação">&#9432;</sup>
                         </h4>
 
                         <div class="content">
@@ -67,7 +68,7 @@
                                     <p>{{ pergunta.Eng.Question_negative_stereotype }}</p>
                                 </div>
                                 <div class="ptbr">
-                                    <p class="quest">{{ pergunta.Ptbr.Questao_negativa_stereotype }}</p>
+                                    <p class="quest">{{ pergunta.Ptbr.Questao_negativa}}</p>
                                 </div>
                             </div>
                         </div>
@@ -84,6 +85,32 @@
                                 </div>
                             </div>
                         </div>
+
+                        <div class="perguntas">
+                            <h4>Pergunta Não Negativa</h4>
+                            <div class="type-question">
+                                <div class="eng">
+                                    <p>{{ pergunta.Eng.Question_non_negative}}</p>
+                                </div>
+                                <div class="ptbr">
+                                    <p class="quest">{{ pergunta.Ptbr.Questao_nao_negativa }}</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- RESPOSTA -->
+                        <div class="respostas">
+                            <h4>Resposta Não Negativa</h4>
+                            <div class="type-answer">
+                                <div class="eng">
+                                    <p>{{ pergunta.Eng.Answer_non_negative}}</p>
+                                </div>
+                                <div class="ptbr">
+                                    <p class="quest">{{ pergunta.Ptbr.Resposta_nao_negativa }}</p>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
 
                     <!-- Informativo -->
@@ -96,9 +123,11 @@
 
                         <div class="content">
                             <div class="eng">
+                                <p>{{ pergunta.Eng.Ambiguous_Context }}</p>
                                 <p>{{ pergunta.Eng.Disambiguating_Context }}</p>
                             </div>
                             <div class="ptbr">
+                                <p>{{ pergunta.Ptbr.Contexto_Ambiguous }}</p>
                                 <p>{{ pergunta.Ptbr.Contexto_Disambiguating }}</p>
                             </div>
                         </div>
@@ -111,7 +140,7 @@
                                     <p>{{ pergunta.Eng.Question_negative_stereotype }}</p>
                                 </div>
                                 <div class="ptbr">
-                                    <p class="quest">{{ pergunta.Ptbr.Questao_negativa_stereotype }}</p>
+                                    <p class="quest">{{ pergunta.Ptbr.Questao_negativa }}</p>
                                 </div>
                             </div>
                         </div>
@@ -128,26 +157,50 @@
                                 </div>
                             </div>
                         </div>
+
+                        <div class="perguntas">
+                            <h4>Pergunta Não Negativa</h4>
+                            <div class="type-question">
+                                <div class="eng">
+                                    <p>{{ pergunta.Eng.Question_non_negative}}</p>
+                                </div>
+                                <div class="ptbr">
+                                    <p class="quest">{{ pergunta.Ptbr.Questao_nao_negativa }}</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- RESPOSTA -->
+                        <div class="respostas">
+                            <h4>Resposta Não Negativa</h4>
+                            <div class="type-answer">
+                                <div class="eng">
+                                    <p>{{ pergunta.Eng.Answer_non_negative}}</p>
+                                </div>
+                                <div class="ptbr">
+                                    <p class="quest">{{pergunta.Ptbr.Resposta_nao_negativa }}</p>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
 
-                </div>
+                    <!-- FORM -->
+                    <form class="form-validacao" method="post" action="{% url 'forms_bbq:proximo_template' %}">
+                        {% csrf_token %}
 
-                <!-- FORM -->
-                <form class="form-validacao" method="post" action="{% url 'forms_bbq:proximo_template' %}">
-                    {% csrf_token %}
+                        <div class="div-commit">
+                            <h4>Validação:</h4>
+                            {{ forms.as_p }}
+                        </div>
 
-                    <div class="div-commit">
-                        <h4>Validação:</h4>
-                        {{ forms.as_p }}
-                    </div>
+                        <div class="botao">
+                            <button id="voltar" type="reset">Voltar</button>
+                            <button id="continuar" type="submit">Próxima</button>
 
-                    <div class="botao">
-                        <button id="voltar" type="reset">Voltar</button>
-                        <button id="continuar" type="submit">Próxima</button>
+                        </div>
 
-                    </div>
-
-                </form>
+                    </form>
 
             </section>
         </main>

@@ -1,0 +1,883 @@
+Q_id,Contador,Categoria,Arquivo
+a_01,0,Idade,age_unique.csv
+ga_01,0,Idade,age_enpt_gpt.csv
+a_02,0,Idade,age_unique.csv
+ga_02,0,Idade,age_enpt_gpt.csv
+a_11,0,Idade,age_unique.csv
+ga_11,0,Idade,age_enpt_gpt.csv
+a_12,0,Idade,age_unique.csv
+ga_12,0,Idade,age_enpt_gpt.csv
+a_21,0,Idade,age_unique.csv
+ga_21,0,Idade,age_enpt_gpt.csv
+a_21,0,Idade,age_unique.csv
+ga_21,0,Idade,age_enpt_gpt.csv
+a_31,0,Idade,age_unique.csv
+ga_31,0,Idade,age_enpt_gpt.csv
+a_32,0,Idade,age_unique.csv
+ga_32,0,Idade,age_enpt_gpt.csv
+a_41,0,Idade,age_unique.csv
+ga_41,0,Idade,age_enpt_gpt.csv
+a_42,0,Idade,age_unique.csv
+ga_42,0,Idade,age_enpt_gpt.csv
+a_51,0,Idade,age_unique.csv
+ga_51,0,Idade,age_enpt_gpt.csv
+a_52,0,Idade,age_unique.csv
+ga_52,0,Idade,age_enpt_gpt.csv
+a_61,0,Idade,age_unique.csv
+ga_61,0,Idade,age_enpt_gpt.csv
+a_62,0,Idade,age_unique.csv
+ga_62,0,Idade,age_enpt_gpt.csv
+a_71,0,Idade,age_unique.csv
+ga_71,0,Idade,age_enpt_gpt.csv
+a_72,0,Idade,age_unique.csv
+ga_72,0,Idade,age_enpt_gpt.csv
+a_81,0,Idade,age_unique.csv
+ga_81,0,Idade,age_enpt_gpt.csv
+a_82,0,Idade,age_unique.csv
+ga_82,0,Idade,age_enpt_gpt.csv
+a_91,0,Idade,age_unique.csv
+ga_91,0,Idade,age_enpt_gpt.csv
+a_92,0,Idade,age_unique.csv
+ga_92,0,Idade,age_enpt_gpt.csv
+a_101,0,Idade,age_unique.csv
+ga_101,0,Idade,age_enpt_gpt.csv
+a_102,0,Idade,age_unique.csv
+ga_102,0,Idade,age_enpt_gpt.csv
+a_111,0,Idade,age_unique.csv
+ga_111,0,Idade,age_enpt_gpt.csv
+a_112,0,Idade,age_unique.csv
+ga_112,0,Idade,age_enpt_gpt.csv
+a_121,0,Idade,age_unique.csv
+ga_121,0,Idade,age_enpt_gpt.csv
+a_122,0,Idade,age_unique.csv
+ga_122,0,Idade,age_enpt_gpt.csv
+a_131,0,Idade,age_unique.csv
+ga_131,0,Idade,age_enpt_gpt.csv
+a_132,0,Idade,age_unique.csv
+ga_132,0,Idade,age_enpt_gpt.csv
+a_141,0,Idade,age_unique.csv
+ga_141,0,Idade,age_enpt_gpt.csv
+a_142,0,Idade,age_unique.csv
+ga_142,0,Idade,age_enpt_gpt.csv
+a_151,0,Idade,age_unique.csv
+ga_151,0,Idade,age_enpt_gpt.csv
+a_152,0,Idade,age_unique.csv
+ga_152,0,Idade,age_enpt_gpt.csv
+a_161,0,Idade,age_unique.csv
+ga_161,0,Idade,age_enpt_gpt.csv
+a_162,0,Idade,age_unique.csv
+ga_162,0,Idade,age_enpt_gpt.csv
+a_171,0,Idade,age_unique.csv
+ga_171,0,Idade,age_enpt_gpt.csv
+a_172,0,Idade,age_unique.csv
+ga_172,0,Idade,age_enpt_gpt.csv
+a_181,0,Idade,age_unique.csv
+ga_181,0,Idade,age_enpt_gpt.csv
+a_182,0,Idade,age_unique.csv
+ga_182,0,Idade,age_enpt_gpt.csv
+a_191,0,Idade,age_unique.csv
+ga_191,0,Idade,age_enpt_gpt.csv
+a_192,0,Idade,age_unique.csv
+ga_192,0,Idade,age_enpt_gpt.csv
+a_201,0,Idade,age_unique.csv
+ga_201,0,Idade,age_enpt_gpt.csv
+a_202,0,Idade,age_unique.csv
+ga_202,0,Idade,age_enpt_gpt.csv
+a_211,0,Idade,age_unique.csv
+ga_211,0,Idade,age_enpt_gpt.csv
+a_212,0,Idade,age_unique.csv
+ga_212,0,Idade,age_enpt_gpt.csv
+a_221,0,Idade,age_unique.csv
+ga_221,0,Idade,age_enpt_gpt.csv
+a_222,0,Idade,age_unique.csv
+ga_222,0,Idade,age_enpt_gpt.csv
+a_231,0,Idade,age_unique.csv
+ga_231,0,Idade,age_enpt_gpt.csv
+a_232,0,Idade,age_unique.csv
+ga_232,0,Idade,age_enpt_gpt.csv
+a_241,0,Idade,age_unique.csv
+ga_241,0,Idade,age_enpt_gpt.csv
+a_242,0,Idade,age_unique.csv
+ga_242,0,Idade,age_enpt_gpt.csv
+di_01,0,PCD,disability_unique.csv
+gd_01,0,PCD,disability_enpt_gpt.csv
+di_02,0,PCD,disability_unique.csv
+gd_02,0,PCD,disability_enpt_gpt.csv
+di_11,0,PCD,disability_unique.csv
+gd_11,0,PCD,disability_enpt_gpt.csv
+di_12,0,PCD,disability_unique.csv
+gd_12,0,PCD,disability_enpt_gpt.csv
+di_21,0,PCD,disability_unique.csv
+gd_21,0,PCD,disability_enpt_gpt.csv
+di_21,0,PCD,disability_unique.csv
+gd_21,0,PCD,disability_enpt_gpt.csv
+di_31,0,PCD,disability_unique.csv
+gd_31,0,PCD,disability_enpt_gpt.csv
+di_32,0,PCD,disability_unique.csv
+gd_32,0,PCD,disability_enpt_gpt.csv
+di_41,0,PCD,disability_unique.csv
+gd_41,0,PCD,disability_enpt_gpt.csv
+di_42,0,PCD,disability_unique.csv
+gd_42,0,PCD,disability_enpt_gpt.csv
+di_51,0,PCD,disability_unique.csv
+gd_51,0,PCD,disability_enpt_gpt.csv
+di_52,0,PCD,disability_unique.csv
+gd_52,0,PCD,disability_enpt_gpt.csv
+di_61,0,PCD,disability_unique.csv
+gd_61,0,PCD,disability_enpt_gpt.csv
+di_62,0,PCD,disability_unique.csv
+gd_62,0,PCD,disability_enpt_gpt.csv
+di_71,0,PCD,disability_unique.csv
+gd_71,0,PCD,disability_enpt_gpt.csv
+di_72,0,PCD,disability_unique.csv
+gd_72,0,PCD,disability_enpt_gpt.csv
+di_81,0,PCD,disability_unique.csv
+gd_81,0,PCD,disability_enpt_gpt.csv
+di_82,0,PCD,disability_unique.csv
+gd_82,0,PCD,disability_enpt_gpt.csv
+di_91,0,PCD,disability_unique.csv
+gd_91,0,PCD,disability_enpt_gpt.csv
+di_92,0,PCD,disability_unique.csv
+gd_92,0,PCD,disability_enpt_gpt.csv
+di_101,0,PCD,disability_unique.csv
+gd_101,0,PCD,disability_enpt_gpt.csv
+di_102,0,PCD,disability_unique.csv
+gd_102,0,PCD,disability_enpt_gpt.csv
+di_111,0,PCD,disability_unique.csv
+gd_111,0,PCD,disability_enpt_gpt.csv
+di_112,0,PCD,disability_unique.csv
+gd_112,0,PCD,disability_enpt_gpt.csv
+di_121,0,PCD,disability_unique.csv
+gd_121,0,PCD,disability_enpt_gpt.csv
+di_122,0,PCD,disability_unique.csv
+gd_122,0,PCD,disability_enpt_gpt.csv
+di_131,0,PCD,disability_unique.csv
+gd_131,0,PCD,disability_enpt_gpt.csv
+di_132,0,PCD,disability_unique.csv
+gd_132,0,PCD,disability_enpt_gpt.csv
+di_141,0,PCD,disability_unique.csv
+gd_141,0,PCD,disability_enpt_gpt.csv
+di_142,0,PCD,disability_unique.csv
+gd_142,0,PCD,disability_enpt_gpt.csv
+di_151,0,PCD,disability_unique.csv
+gd_151,0,PCD,disability_enpt_gpt.csv
+di_152,0,PCD,disability_unique.csv
+gd_152,0,PCD,disability_enpt_gpt.csv
+di_161,0,PCD,disability_unique.csv
+gd_161,0,PCD,disability_enpt_gpt.csv
+di_162,0,PCD,disability_unique.csv
+gd_162,0,PCD,disability_enpt_gpt.csv
+di_171,0,PCD,disability_unique.csv
+gd_171,0,PCD,disability_enpt_gpt.csv
+di_172,0,PCD,disability_unique.csv
+gd_172,0,PCD,disability_enpt_gpt.csv
+di_181,0,PCD,disability_unique.csv
+gd_181,0,PCD,disability_enpt_gpt.csv
+di_182,0,PCD,disability_unique.csv
+gd_182,0,PCD,disability_enpt_gpt.csv
+di_191,0,PCD,disability_unique.csv
+gd_191,0,PCD,disability_enpt_gpt.csv
+di_192,0,PCD,disability_unique.csv
+gd_192,0,PCD,disability_enpt_gpt.csv
+di_201,0,PCD,disability_unique.csv
+gd_201,0,PCD,disability_enpt_gpt.csv
+di_202,0,PCD,disability_unique.csv
+gd_202,0,PCD,disability_enpt_gpt.csv
+di_211,0,PCD,disability_unique.csv
+gd_211,0,PCD,disability_enpt_gpt.csv
+di_212,0,PCD,disability_unique.csv
+gd_212,0,PCD,disability_enpt_gpt.csv
+di_221,0,PCD,disability_unique.csv
+gd_221,0,PCD,disability_enpt_gpt.csv
+di_222,0,PCD,disability_unique.csv
+gd_222,0,PCD,disability_enpt_gpt.csv
+di_231,0,PCD,disability_unique.csv
+gd_231,0,PCD,disability_enpt_gpt.csv
+di_232,0,PCD,disability_unique.csv
+gd_232,0,PCD,disability_enpt_gpt.csv
+di_241,0,PCD,disability_unique.csv
+gd_241,0,PCD,disability_enpt_gpt.csv
+di_242,0,PCD,disability_unique.csv
+gd_242,0,PCD,disability_enpt_gpt.csv
+so_01,0,Orientação Sexual,sexual_orient_unique.csv
+gso_01,0,Orientação Sexual,sexual_orient_enpt_gpt.csv
+so_02,0,Orientação Sexual,sexual_orient_unique.csv
+gso_02,0,Orientação Sexual,sexual_orient_enpt_gpt.csv
+so_03,0,Orientação Sexual,sexual_orient_unique.csv
+gso_03,0,Orientação Sexual,sexual_orient_enpt_gpt.csv
+so_04,0,Orientação Sexual,sexual_orient_unique.csv
+gso_04,0,Orientação Sexual,sexual_orient_enpt_gpt.csv
+so_05,0,Orientação Sexual,sexual_orient_unique.csv
+gso_05,0,Orientação Sexual,sexual_orient_enpt_gpt.csv
+so_06,0,Orientação Sexual,sexual_orient_unique.csv
+gso_06,0,Orientação Sexual,sexual_orient_enpt_gpt.csv
+so_07,0,Orientação Sexual,sexual_orient_unique.csv
+gso_07,0,Orientação Sexual,sexual_orient_enpt_gpt.csv
+so_08,0,Orientação Sexual,sexual_orient_unique.csv
+gso_08,0,Orientação Sexual,sexual_orient_enpt_gpt.csv
+so_09,0,Orientação Sexual,sexual_orient_unique.csv
+gso_09,0,Orientação Sexual,sexual_orient_enpt_gpt.csv
+so_10,0,Orientação Sexual,sexual_orient_unique.csv
+gso_10,0,Orientação Sexual,sexual_orient_enpt_gpt.csv
+so_11,0,Orientação Sexual,sexual_orient_unique.csv
+gso_11,0,Orientação Sexual,sexual_orient_enpt_gpt.csv
+so_12,0,Orientação Sexual,sexual_orient_unique.csv
+gso_12,0,Orientação Sexual,sexual_orient_enpt_gpt.csv
+so_13,0,Orientação Sexual,sexual_orient_unique.csv
+gso_13,0,Orientação Sexual,sexual_orient_enpt_gpt.csv
+so_14,0,Orientação Sexual,sexual_orient_unique.csv
+gso_14,0,Orientação Sexual,sexual_orient_enpt_gpt.csv
+so_15,0,Orientação Sexual,sexual_orient_unique.csv
+gso_15,0,Orientação Sexual,sexual_orient_enpt_gpt.csv
+so_16,0,Orientação Sexual,sexual_orient_unique.csv
+gso_16,0,Orientação Sexual,sexual_orient_enpt_gpt.csv
+so_17,0,Orientação Sexual,sexual_orient_unique.csv
+gso_17,0,Orientação Sexual,sexual_orient_enpt_gpt.csv
+so_18,0,Orientação Sexual,sexual_orient_unique.csv
+gso_18,0,Orientação Sexual,sexual_orient_enpt_gpt.csv
+so_19,0,Orientação Sexual,sexual_orient_unique.csv
+gso_19,0,Orientação Sexual,sexual_orient_enpt_gpt.csv
+so_20,0,Orientação Sexual,sexual_orient_unique.csv
+gso_20,0,Orientação Sexual,sexual_orient_enpt_gpt.csv
+so_21,0,Orientação Sexual,sexual_orient_unique.csv
+gso_21,0,Orientação Sexual,sexual_orient_enpt_gpt.csv
+so_22,0,Orientação Sexual,sexual_orient_unique.csv
+gso_22,0,Orientação Sexual,sexual_orient_enpt_gpt.csv
+so_23,0,Orientação Sexual,sexual_orient_unique.csv
+gso_23,0,Orientação Sexual,sexual_orient_enpt_gpt.csv
+so_24,0,Orientação Sexual,sexual_orient_unique.csv
+gso_24,0,Orientação Sexual,sexual_orient_enpt_gpt.csv
+so_25,0,Orientação Sexual,sexual_orient_unique.csv
+gso_25,0,Orientação Sexual,sexual_orient_enpt_gpt.csv
+gi_01,0,Gênero,gender_unique.csv
+ggi_01,0,Gênero,gender_enpt_gpt.csv
+gi_02,0,Gênero,gender_unique.csv
+ggi_02,0,Gênero,gender_enpt_gpt.csv
+gi_03,0,Gênero,gender_unique.csv
+ggi_03,0,Gênero,gender_enpt_gpt.csv
+gi_04,0,Gênero,gender_unique.csv
+ggi_04,0,Gênero,gender_enpt_gpt.csv
+gi_05,0,Gênero,gender_unique.csv
+ggi_05,0,Gênero,gender_enpt_gpt.csv
+gi_06,0,Gênero,gender_unique.csv
+ggi_06,0,Gênero,gender_enpt_gpt.csv
+gi_07,0,Gênero,gender_unique.csv
+ggi_07,0,Gênero,gender_enpt_gpt.csv
+gi_08,0,Gênero,gender_unique.csv
+ggi_08,0,Gênero,gender_enpt_gpt.csv
+gi_09,0,Gênero,gender_unique.csv
+ggi_09,0,Gênero,gender_enpt_gpt.csv
+gi_10,0,Gênero,gender_unique.csv
+ggi_10,0,Gênero,gender_enpt_gpt.csv
+gi_111,0,Gênero,gender_unique.csv
+ggi_111,0,Gênero,gender_enpt_gpt.csv
+gi_112,0,Gênero,gender_unique.csv
+ggi_112,0,Gênero,gender_enpt_gpt.csv
+gi_121,0,Gênero,gender_unique.csv
+ggi_121,0,Gênero,gender_enpt_gpt.csv
+gi_122,0,Gênero,gender_unique.csv
+ggi_122,0,Gênero,gender_enpt_gpt.csv
+gi_131,0,Gênero,gender_unique.csv
+ggi_131,0,Gênero,gender_enpt_gpt.csv
+gi_132,0,Gênero,gender_unique.csv
+ggi_132,0,Gênero,gender_enpt_gpt.csv
+gi_133,0,Gênero,gender_unique.csv
+ggi_133,0,Gênero,gender_enpt_gpt.csv
+gi_134,0,Gênero,gender_unique.csv
+ggi_134,0,Gênero,gender_enpt_gpt.csv
+gi_14,0,Gênero,gender_unique.csv
+ggi_14,0,Gênero,gender_enpt_gpt.csv
+gi_15,0,Gênero,gender_unique.csv
+ggi_15,0,Gênero,gender_enpt_gpt.csv
+gi_16,0,Gênero,gender_unique.csv
+ggi_16,0,Gênero,gender_enpt_gpt.csv
+gi_171,0,Gênero,gender_unique.csv
+ggi_171,0,Gênero,gender_enpt_gpt.csv
+gi_172,0,Gênero,gender_unique.csv
+ggi_172,0,Gênero,gender_enpt_gpt.csv
+gi_181,0,Gênero,gender_unique.csv
+ggi_181,0,Gênero,gender_enpt_gpt.csv
+gi_182,0,Gênero,gender_unique.csv
+ggi_182,0,Gênero,gender_enpt_gpt.csv
+gi_19,0,Gênero,gender_unique.csv
+ggi_19,0,Gênero,gender_enpt_gpt.csv
+gi_201,0,Gênero,gender_unique.csv
+ggi_201,0,Gênero,gender_enpt_gpt.csv
+gi_202,0,Gênero,gender_unique.csv
+ggi_202,0,Gênero,gender_enpt_gpt.csv
+gi_203,0,Gênero,gender_unique.csv
+ggi_203,0,Gênero,gender_enpt_gpt.csv
+gi_21,0,Gênero,gender_unique.csv
+ggi_21,0,Gênero,gender_enpt_gpt.csv
+gi_22,0,Gênero,gender_unique.csv
+ggi_22,0,Gênero,gender_enpt_gpt.csv
+gi_23,0,Gênero,gender_unique.csv
+ggi_23,0,Gênero,gender_enpt_gpt.csv
+gi_24,0,Gênero,gender_unique.csv
+ggi_24,0,Gênero,gender_enpt_gpt.csv
+gi_25,0,Gênero,gender_unique.csv
+ggi_25,0,Gênero,gender_enpt_gpt.csv
+gi_26,0,Gênero,gender_unique.csv
+ggi_26,0,Gênero,gender_enpt_gpt.csv
+gi_27,0,Gênero,gender_unique.csv
+ggi_27,0,Gênero,gender_enpt_gpt.csv
+gi_28,0,Gênero,gender_unique.csv
+ggi_28,0,Gênero,gender_enpt_gpt.csv
+gi_29,0,Gênero,gender_unique.csv
+ggi_29,0,Gênero,gender_enpt_gpt.csv
+gi_30,0,Gênero,gender_unique.csv
+ggi_30,0,Gênero,gender_enpt_gpt.csv
+gi_31,0,Gênero,gender_unique.csv
+ggi_31,0,Gênero,gender_enpt_gpt.csv
+gi_32,0,Gênero,gender_unique.csv
+ggi_32,0,Gênero,gender_enpt_gpt.csv
+gi_33,0,Gênero,gender_unique.csv
+ggi_33,0,Gênero,gender_enpt_gpt.csv
+gi_34,0,Gênero,gender_unique.csv
+ggi_34,0,Gênero,gender_enpt_gpt.csv
+gi_35,0,Gênero,gender_unique.csv
+ggi_35,0,Gênero,gender_enpt_gpt.csv
+gi_36,0,Gênero,gender_unique.csv
+ggi_36,0,Gênero,gender_enpt_gpt.csv
+gi_37,0,Gênero,gender_unique.csv
+ggi_37,0,Gênero,gender_enpt_gpt.csv
+gi_38,0,Gênero,gender_unique.csv
+ggi_38,0,Gênero,gender_enpt_gpt.csv
+gi_39,0,Gênero,gender_unique.csv
+ggi_39,0,Gênero,gender_enpt_gpt.csv
+gi_40,0,Gênero,gender_unique.csv
+ggi_40,0,Gênero,gender_enpt_gpt.csv
+gi_41,0,Gênero,gender_unique.csv
+ggi_41,0,Gênero,gender_enpt_gpt.csv
+gi_42,0,Gênero,gender_unique.csv
+ggi_42,0,Gênero,gender_enpt_gpt.csv
+gi_43,0,Gênero,gender_unique.csv
+ggi_43,0,Gênero,gender_enpt_gpt.csv
+gi_44,0,Gênero,gender_unique.csv
+ggi_44,0,Gênero,gender_enpt_gpt.csv
+gi_45,0,Gênero,gender_unique.csv
+ggi_45,0,Gênero,gender_enpt_gpt.csv
+gi_46,0,Gênero,gender_unique.csv
+ggi_46,0,Gênero,gender_enpt_gpt.csv
+gi_47,0,Gênero,gender_unique.csv
+ggi_47,0,Gênero,gender_enpt_gpt.csv
+gi_48,0,Gênero,gender_unique.csv
+ggi_48,0,Gênero,gender_enpt_gpt.csv
+gi_49,0,Gênero,gender_unique.csv
+ggi_49,0,Gênero,gender_enpt_gpt.csv
+gi_50,0,Gênero,gender_unique.csv
+ggi_50,0,Gênero,gender_enpt_gpt.csv
+gi_51,0,Gênero,gender_unique.csv
+ggi_51,0,Gênero,gender_enpt_gpt.csv
+r_01,0,Raça,race_unique.csv
+gr_01,0,Raça,race_enpt_gpt.csv
+r_02,0,Raça,race_unique.csv
+gr_02,0,Raça,race_enpt_gpt.csv
+r_03,0,Raça,race_unique.csv
+gr_03,0,Raça,race_enpt_gpt.csv
+r_04,0,Raça,race_unique.csv
+gr_04,0,Raça,race_enpt_gpt.csv
+r_05,0,Raça,race_unique.csv
+gr_05,0,Raça,race_enpt_gpt.csv
+r_06,0,Raça,race_unique.csv
+gr_06,0,Raça,race_enpt_gpt.csv
+r_07,0,Raça,race_unique.csv
+gr_07,0,Raça,race_enpt_gpt.csv
+r_08,0,Raça,race_unique.csv
+gr_08,0,Raça,race_enpt_gpt.csv
+r_09,0,Raça,race_unique.csv
+gr_09,0,Raça,race_enpt_gpt.csv
+r_10,0,Raça,race_unique.csv
+gr_10,0,Raça,race_enpt_gpt.csv
+r_11,0,Raça,race_unique.csv
+gr_11,0,Raça,race_enpt_gpt.csv
+r_12,0,Raça,race_unique.csv
+gr_12,0,Raça,race_enpt_gpt.csv
+r_13,0,Raça,race_unique.csv
+gr_13,0,Raça,race_enpt_gpt.csv
+r_14,0,Raça,race_unique.csv
+gr_14,0,Raça,race_enpt_gpt.csv
+r_15,0,Raça,race_unique.csv
+gr_15,0,Raça,race_enpt_gpt.csv
+r_16,0,Raça,race_unique.csv
+gr_16,0,Raça,race_enpt_gpt.csv
+r_17,0,Raça,race_unique.csv
+gr_17,0,Raça,race_enpt_gpt.csv
+r_18,0,Raça,race_unique.csv
+gr_18,0,Raça,race_enpt_gpt.csv
+r_19,0,Raça,race_unique.csv
+gr_19,0,Raça,race_enpt_gpt.csv
+r_20,0,Raça,race_unique.csv
+gr_20,0,Raça,race_enpt_gpt.csv
+r_21,0,Raça,race_unique.csv
+gr_21,0,Raça,race_enpt_gpt.csv
+r_22,0,Raça,race_unique.csv
+gr_22,0,Raça,race_enpt_gpt.csv
+r_23,0,Raça,race_unique.csv
+gr_23,0,Raça,race_enpt_gpt.csv
+r_24,0,Raça,race_unique.csv
+gr_24,0,Raça,race_enpt_gpt.csv
+r_25,0,Raça,race_unique.csv
+gr_25,0,Raça,race_enpt_gpt.csv
+r_26,0,Raça,race_unique.csv
+gr_26,0,Raça,race_enpt_gpt.csv
+r_27,0,Raça,race_unique.csv
+gr_27,0,Raça,race_enpt_gpt.csv
+r_28,0,Raça,race_unique.csv
+gr_28,0,Raça,race_enpt_gpt.csv
+r_29,0,Raça,race_unique.csv
+gr_29,0,Raça,race_enpt_gpt.csv
+r_30,0,Raça,race_unique.csv
+gr_30,0,Raça,race_enpt_gpt.csv
+r_31,0,Raça,race_unique.csv
+gr_31,0,Raça,race_enpt_gpt.csv
+r_32,0,Raça,race_unique.csv
+gr_32,0,Raça,race_enpt_gpt.csv
+r_33,0,Raça,race_unique.csv
+gr_33,0,Raça,race_enpt_gpt.csv
+r_34,0,Raça,race_unique.csv
+gr_34,0,Raça,race_enpt_gpt.csv
+r_35,0,Raça,race_unique.csv
+gr_35,0,Raça,race_enpt_gpt.csv
+r_36,0,Raça,race_unique.csv
+gr_36,0,Raça,race_enpt_gpt.csv
+r_37,0,Raça,race_unique.csv
+gr_37,0,Raça,race_enpt_gpt.csv
+r_38,0,Raça,race_unique.csv
+gr_38,0,Raça,race_enpt_gpt.csv
+r_39,0,Raça,race_unique.csv
+gr_39,0,Raça,race_enpt_gpt.csv
+r_40,0,Raça,race_unique.csv
+gr_40,0,Raça,race_enpt_gpt.csv
+r_41,0,Raça,race_unique.csv
+gr_41,0,Raça,race_enpt_gpt.csv
+r_42,0,Raça,race_unique.csv
+gr_42,0,Raça,race_enpt_gpt.csv
+r_43,0,Raça,race_unique.csv
+gr_43,0,Raça,race_enpt_gpt.csv
+r_44,0,Raça,race_unique.csv
+gr_44,0,Raça,race_enpt_gpt.csv
+r_45,0,Raça,race_unique.csv
+gr_45,0,Raça,race_enpt_gpt.csv
+r_46,0,Raça,race_unique.csv
+gr_46,0,Raça,race_enpt_gpt.csv
+r_47,0,Raça,race_unique.csv
+gr_47,0,Raça,race_enpt_gpt.csv
+r_48,0,Raça,race_unique.csv
+gr_48,0,Raça,race_enpt_gpt.csv
+r_49,0,Raça,race_unique.csv
+gr_49,0,Raça,race_enpt_gpt.csv
+r_50,0,Raça,race_unique.csv
+gr_50,0,Raça,race_enpt_gpt.csv
+rg_01,0,Raça x Gênero,race_gender_unique.csv
+grg_01,0,Raça x Gênero,race_gender_enpt_gpt.csv
+rg_02,0,Raça x Gênero,race_gender_unique.csv
+grg_02,0,Raça x Gênero,race_gender_enpt_gpt.csv
+rg_03,0,Raça x Gênero,race_gender_unique.csv
+grg_03,0,Raça x Gênero,race_gender_enpt_gpt.csv
+rg_04,0,Raça x Gênero,race_gender_unique.csv
+grg_04,0,Raça x Gênero,race_gender_enpt_gpt.csv
+rg_05,0,Raça x Gênero,race_gender_unique.csv
+grg_05,0,Raça x Gênero,race_gender_enpt_gpt.csv
+rg_06,0,Raça x Gênero,race_gender_unique.csv
+grg_06,0,Raça x Gênero,race_gender_enpt_gpt.csv
+rg_07,0,Raça x Gênero,race_gender_unique.csv
+grg_07,0,Raça x Gênero,race_gender_enpt_gpt.csv
+rg_08,0,Raça x Gênero,race_gender_unique.csv
+grg_08,0,Raça x Gênero,race_gender_enpt_gpt.csv
+rg_09,0,Raça x Gênero,race_gender_unique.csv
+grg_09,0,Raça x Gênero,race_gender_enpt_gpt.csv
+rg_10,0,Raça x Gênero,race_gender_unique.csv
+grg_10,0,Raça x Gênero,race_gender_enpt_gpt.csv
+rg_11,0,Raça x Gênero,race_gender_unique.csv
+grg_11,0,Raça x Gênero,race_gender_enpt_gpt.csv
+rg_12,0,Raça x Gênero,race_gender_unique.csv
+grg_12,0,Raça x Gênero,race_gender_enpt_gpt.csv
+rg_13,0,Raça x Gênero,race_gender_unique.csv
+grg_13,0,Raça x Gênero,race_gender_enpt_gpt.csv
+rg_14,0,Raça x Gênero,race_gender_unique.csv
+grg_14,0,Raça x Gênero,race_gender_enpt_gpt.csv
+rg_15,0,Raça x Gênero,race_gender_unique.csv
+grg_15,0,Raça x Gênero,race_gender_enpt_gpt.csv
+rg_16,0,Raça x Gênero,race_gender_unique.csv
+grg_16,0,Raça x Gênero,race_gender_enpt_gpt.csv
+rg_17,0,Raça x Gênero,race_gender_unique.csv
+grg_17,0,Raça x Gênero,race_gender_enpt_gpt.csv
+rg_18,0,Raça x Gênero,race_gender_unique.csv
+grg_18,0,Raça x Gênero,race_gender_enpt_gpt.csv
+rg_19,0,Raça x Gênero,race_gender_unique.csv
+grg_19,0,Raça x Gênero,race_gender_enpt_gpt.csv
+rg_20,0,Raça x Gênero,race_gender_unique.csv
+grg_20,0,Raça x Gênero,race_gender_enpt_gpt.csv
+rg_21,0,Raça x Gênero,race_gender_unique.csv
+grg_21,0,Raça x Gênero,race_gender_enpt_gpt.csv
+rg_22,0,Raça x Gênero,race_gender_unique.csv
+grg_22,0,Raça x Gênero,race_gender_enpt_gpt.csv
+rg_23,0,Raça x Gênero,race_gender_unique.csv
+grg_23,0,Raça x Gênero,race_gender_enpt_gpt.csv
+rg_24,0,Raça x Gênero,race_gender_unique.csv
+grg_24,0,Raça x Gênero,race_gender_enpt_gpt.csv
+rg_25,0,Raça x Gênero,race_gender_unique.csv
+grg_25,0,Raça x Gênero,race_gender_enpt_gpt.csv
+rg_26,0,Raça x Gênero,race_gender_unique.csv
+grg_26,0,Raça x Gênero,race_gender_enpt_gpt.csv
+rg_27,0,Raça x Gênero,race_gender_unique.csv
+grg_27,0,Raça x Gênero,race_gender_enpt_gpt.csv
+rg_28,0,Raça x Gênero,race_gender_unique.csv
+grg_28,0,Raça x Gênero,race_gender_enpt_gpt.csv
+rg_29,0,Raça x Gênero,race_gender_unique.csv
+grg_29,0,Raça x Gênero,race_gender_enpt_gpt.csv
+rg_30,0,Raça x Gênero,race_gender_unique.csv
+grg_30,0,Raça x Gênero,race_gender_enpt_gpt.csv
+rg_31,0,Raça x Gênero,race_gender_unique.csv
+grg_31,0,Raça x Gênero,race_gender_enpt_gpt.csv
+rg_32,0,Raça x Gênero,race_gender_unique.csv
+grg_32,0,Raça x Gênero,race_gender_enpt_gpt.csv
+rg_33,0,Raça x Gênero,race_gender_unique.csv
+grg_33,0,Raça x Gênero,race_gender_enpt_gpt.csv
+rg_34,0,Raça x Gênero,race_gender_unique.csv
+grg_34,0,Raça x Gênero,race_gender_enpt_gpt.csv
+rg_35,0,Raça x Gênero,race_gender_unique.csv
+grg_35,0,Raça x Gênero,race_gender_enpt_gpt.csv
+rg_36,0,Raça x Gênero,race_gender_unique.csv
+grg_36,0,Raça x Gênero,race_gender_enpt_gpt.csv
+rg_37,0,Raça x Gênero,race_gender_unique.csv
+grg_37,0,Raça x Gênero,race_gender_enpt_gpt.csv
+rg_38,0,Raça x Gênero,race_gender_unique.csv
+grg_38,0,Raça x Gênero,race_gender_enpt_gpt.csv
+rg_39,0,Raça x Gênero,race_gender_unique.csv
+grg_39,0,Raça x Gênero,race_gender_enpt_gpt.csv
+rg_40,0,Raça x Gênero,race_gender_unique.csv
+grg_40,0,Raça x Gênero,race_gender_enpt_gpt.csv
+rg_41,0,Raça x Gênero,race_gender_unique.csv
+grg_41,0,Raça x Gênero,race_gender_enpt_gpt.csv
+rg_42,0,Raça x Gênero,race_gender_unique.csv
+grg_42,0,Raça x Gênero,race_gender_enpt_gpt.csv
+rs_11,0,Raça x SES,race_ses_unique.csv
+grs_11,0,Raça x SES,race_ses_enpt_gpt.csv
+rs_12,0,Raça x SES,race_ses_unique.csv
+grs_12,0,Raça x SES,race_ses_enpt_gpt.csv
+rs_21,0,Raça x SES,race_ses_unique.csv
+grs_21,0,Raça x SES,race_ses_enpt_gpt.csv
+rs_22,0,Raça x SES,race_ses_unique.csv
+grs_22,0,Raça x SES,race_ses_enpt_gpt.csv
+rs_31,0,Raça x SES,race_ses_unique.csv
+grs_31,0,Raça x SES,race_ses_enpt_gpt.csv
+rs_32,0,Raça x SES,race_ses_unique.csv
+grs_32,0,Raça x SES,race_ses_enpt_gpt.csv
+rs_41,0,Raça x SES,race_ses_unique.csv
+grs_41,0,Raça x SES,race_ses_enpt_gpt.csv
+rs_42,0,Raça x SES,race_ses_unique.csv
+grs_42,0,Raça x SES,race_ses_enpt_gpt.csv
+rs_09,0,Raça x SES,race_ses_unique.csv
+grs_09,0,Raça x SES,race_ses_enpt_gpt.csv
+rs_10,0,Raça x SES,race_ses_unique.csv
+grs_10,0,Raça x SES,race_ses_enpt_gpt.csv
+rs_11,0,Raça x SES,race_ses_unique.csv
+grs_11,0,Raça x SES,race_ses_enpt_gpt.csv
+rs_12,0,Raça x SES,race_ses_unique.csv
+grs_12,0,Raça x SES,race_ses_enpt_gpt.csv
+rs_13,0,Raça x SES,race_ses_unique.csv
+grs_13,0,Raça x SES,race_ses_enpt_gpt.csv
+rs_14,0,Raça x SES,race_ses_unique.csv
+grs_14,0,Raça x SES,race_ses_enpt_gpt.csv
+rs_151,0,Raça x SES,race_ses_unique.csv
+grs_151,0,Raça x SES,race_ses_enpt_gpt.csv
+rs_152,0,Raça x SES,race_ses_unique.csv
+grs_152,0,Raça x SES,race_ses_enpt_gpt.csv
+rs_16,0,Raça x SES,race_ses_unique.csv
+grs_16,0,Raça x SES,race_ses_enpt_gpt.csv
+rs_17,0,Raça x SES,race_ses_unique.csv
+grs_17,0,Raça x SES,race_ses_enpt_gpt.csv
+rs_181,0,Raça x SES,race_ses_unique.csv
+grs_181,0,Raça x SES,race_ses_enpt_gpt.csv
+rs_182,0,Raça x SES,race_ses_unique.csv
+grs_182,0,Raça x SES,race_ses_enpt_gpt.csv
+rs_191,0,Raça x SES,race_ses_unique.csv
+grs_191,0,Raça x SES,race_ses_enpt_gpt.csv
+rs_192,0,Raça x SES,race_ses_unique.csv
+grs_192,0,Raça x SES,race_ses_enpt_gpt.csv
+rs_201,0,Raça x SES,race_ses_unique.csv
+grs_201,0,Raça x SES,race_ses_enpt_gpt.csv
+rs_202,0,Raça x SES,race_ses_unique.csv
+grs_202,0,Raça x SES,race_ses_enpt_gpt.csv
+rs_211,0,Raça x SES,race_ses_unique.csv
+grs_211,0,Raça x SES,race_ses_enpt_gpt.csv
+rs_212,0,Raça x SES,race_ses_unique.csv
+grs_212,0,Raça x SES,race_ses_enpt_gpt.csv
+re_01,0,Religião,religion_unique.csv
+gre_01,0,Religião,religion_enpt_gpt.csv
+re_02,0,Religião,religion_unique.csv
+gre_02,0,Religião,religion_enpt_gpt.csv
+re_03,0,Religião,religion_unique.csv
+gre_03,0,Religião,religion_enpt_gpt.csv
+re_04,0,Religião,religion_unique.csv
+gre_04,0,Religião,religion_enpt_gpt.csv
+re_05,0,Religião,religion_unique.csv
+gre_05,0,Religião,religion_enpt_gpt.csv
+re_06,0,Religião,religion_unique.csv
+gre_06,0,Religião,religion_enpt_gpt.csv
+re_07,0,Religião,religion_unique.csv
+gre_07,0,Religião,religion_enpt_gpt.csv
+re_08,0,Religião,religion_unique.csv
+gre_08,0,Religião,religion_enpt_gpt.csv
+re_09,0,Religião,religion_unique.csv
+gre_09,0,Religião,religion_enpt_gpt.csv
+re_10,0,Religião,religion_unique.csv
+gre_10,0,Religião,religion_enpt_gpt.csv
+re_11,0,Religião,religion_unique.csv
+gre_11,0,Religião,religion_enpt_gpt.csv
+re_12,0,Religião,religion_unique.csv
+gre_12,0,Religião,religion_enpt_gpt.csv
+re_13,0,Religião,religion_unique.csv
+gre_13,0,Religião,religion_enpt_gpt.csv
+re_14,0,Religião,religion_unique.csv
+gre_14,0,Religião,religion_enpt_gpt.csv
+re_15,0,Religião,religion_unique.csv
+gre_15,0,Religião,religion_enpt_gpt.csv
+re_16,0,Religião,religion_unique.csv
+gre_16,0,Religião,religion_enpt_gpt.csv
+re_17,0,Religião,religion_unique.csv
+gre_17,0,Religião,religion_enpt_gpt.csv
+re_18,0,Religião,religion_unique.csv
+gre_18,0,Religião,religion_enpt_gpt.csv
+re_19,0,Religião,religion_unique.csv
+gre_19,0,Religião,religion_enpt_gpt.csv
+re_20,0,Religião,religion_unique.csv
+gre_20,0,Religião,religion_enpt_gpt.csv
+re_21,0,Religião,religion_unique.csv
+gre_21,0,Religião,religion_enpt_gpt.csv
+re_22,0,Religião,religion_unique.csv
+gre_22,0,Religião,religion_enpt_gpt.csv
+re_23,0,Religião,religion_unique.csv
+gre_23,0,Religião,religion_enpt_gpt.csv
+re_24,0,Religião,religion_unique.csv
+gre_24,0,Religião,religion_enpt_gpt.csv
+re_25,0,Religião,religion_unique.csv
+gre_25,0,Religião,religion_enpt_gpt.csv
+n_01,0,Nacionalidade,nationality_unique.csv
+gn_01,0,Nacionalidade,nationality_enpt_gpt.csv
+n_02,0,Nacionalidade,nationality_unique.csv
+gn_02,0,Nacionalidade,nationality_enpt_gpt.csv
+n_03,0,Nacionalidade,nationality_unique.csv
+gn_03,0,Nacionalidade,nationality_enpt_gpt.csv
+n_04,0,Nacionalidade,nationality_unique.csv
+gn_04,0,Nacionalidade,nationality_enpt_gpt.csv
+n_05,0,Nacionalidade,nationality_unique.csv
+gn_05,0,Nacionalidade,nationality_enpt_gpt.csv
+n_06,0,Nacionalidade,nationality_unique.csv
+gn_06,0,Nacionalidade,nationality_enpt_gpt.csv
+n_07,0,Nacionalidade,nationality_unique.csv
+gn_07,0,Nacionalidade,nationality_enpt_gpt.csv
+n_08,0,Nacionalidade,nationality_unique.csv
+gn_08,0,Nacionalidade,nationality_enpt_gpt.csv
+n_09,0,Nacionalidade,nationality_unique.csv
+gn_09,0,Nacionalidade,nationality_enpt_gpt.csv
+n_10,0,Nacionalidade,nationality_unique.csv
+gn_10,0,Nacionalidade,nationality_enpt_gpt.csv
+n_11,0,Nacionalidade,nationality_unique.csv
+gn_11,0,Nacionalidade,nationality_enpt_gpt.csv
+n_12,0,Nacionalidade,nationality_unique.csv
+gn_12,0,Nacionalidade,nationality_enpt_gpt.csv
+n_13,0,Nacionalidade,nationality_unique.csv
+gn_13,0,Nacionalidade,nationality_enpt_gpt.csv
+n_14,0,Nacionalidade,nationality_unique.csv
+gn_14,0,Nacionalidade,nationality_enpt_gpt.csv
+n_15,0,Nacionalidade,nationality_unique.csv
+gn_15,0,Nacionalidade,nationality_enpt_gpt.csv
+n_16,0,Nacionalidade,nationality_unique.csv
+gn_16,0,Nacionalidade,nationality_enpt_gpt.csv
+n_17,0,Nacionalidade,nationality_unique.csv
+gn_17,0,Nacionalidade,nationality_enpt_gpt.csv
+n_18,0,Nacionalidade,nationality_unique.csv
+gn_18,0,Nacionalidade,nationality_enpt_gpt.csv
+n_19,0,Nacionalidade,nationality_unique.csv
+gn_19,0,Nacionalidade,nationality_enpt_gpt.csv
+n_20,0,Nacionalidade,nationality_unique.csv
+gn_20,0,Nacionalidade,nationality_enpt_gpt.csv
+n_21,0,Nacionalidade,nationality_unique.csv
+gn_21,0,Nacionalidade,nationality_enpt_gpt.csv
+n_22,0,Nacionalidade,nationality_unique.csv
+gn_22,0,Nacionalidade,nationality_enpt_gpt.csv
+n_23,0,Nacionalidade,nationality_unique.csv
+gn_23,0,Nacionalidade,nationality_enpt_gpt.csv
+n_24,0,Nacionalidade,nationality_unique.csv
+gn_24,0,Nacionalidade,nationality_enpt_gpt.csv
+n_25,0,Nacionalidade,nationality_unique.csv
+gn_25,0,Nacionalidade,nationality_enpt_gpt.csv
+ses_01,0,SES,ses_unique.csv
+gses_01,0,SES,ses_enpt_gpt.csv
+ses_02,0,SES,ses_unique.csv
+gses_02,0,SES,ses_enpt_gpt.csv
+ses_11,0,SES,ses_unique.csv
+gses_11,0,SES,ses_enpt_gpt.csv
+ses_12,0,SES,ses_unique.csv
+gses_12,0,SES,ses_enpt_gpt.csv
+ses_21,0,SES,ses_unique.csv
+gses_21,0,SES,ses_enpt_gpt.csv
+ses_21,0,SES,ses_unique.csv
+gses_21,0,SES,ses_enpt_gpt.csv
+ses_31,0,SES,ses_unique.csv
+gses_31,0,SES,ses_enpt_gpt.csv
+ses_32,0,SES,ses_unique.csv
+gses_32,0,SES,ses_enpt_gpt.csv
+ses_41,0,SES,ses_unique.csv
+gses_41,0,SES,ses_enpt_gpt.csv
+ses_42,0,SES,ses_unique.csv
+gses_42,0,SES,ses_enpt_gpt.csv
+ses_51,0,SES,ses_unique.csv
+gses_51,0,SES,ses_enpt_gpt.csv
+ses_52,0,SES,ses_unique.csv
+gses_52,0,SES,ses_enpt_gpt.csv
+ses_61,0,SES,ses_unique.csv
+gses_61,0,SES,ses_enpt_gpt.csv
+ses_62,0,SES,ses_unique.csv
+gses_62,0,SES,ses_enpt_gpt.csv
+ses_71,0,SES,ses_unique.csv
+gses_71,0,SES,ses_enpt_gpt.csv
+ses_72,0,SES,ses_unique.csv
+gses_72,0,SES,ses_enpt_gpt.csv
+ses_81,0,SES,ses_unique.csv
+gses_81,0,SES,ses_enpt_gpt.csv
+ses_82,0,SES,ses_unique.csv
+gses_82,0,SES,ses_enpt_gpt.csv
+ses_91,0,SES,ses_unique.csv
+gses_91,0,SES,ses_enpt_gpt.csv
+ses_92,0,SES,ses_unique.csv
+gses_92,0,SES,ses_enpt_gpt.csv
+ses_101,0,SES,ses_unique.csv
+gses_101,0,SES,ses_enpt_gpt.csv
+ses_102,0,SES,ses_unique.csv
+gses_102,0,SES,ses_enpt_gpt.csv
+ses_111,0,SES,ses_unique.csv
+gses_111,0,SES,ses_enpt_gpt.csv
+ses_112,0,SES,ses_unique.csv
+gses_112,0,SES,ses_enpt_gpt.csv
+ses_121,0,SES,ses_unique.csv
+gses_121,0,SES,ses_enpt_gpt.csv
+ses_122,0,SES,ses_unique.csv
+gses_122,0,SES,ses_enpt_gpt.csv
+ses_131,0,SES,ses_unique.csv
+gses_131,0,SES,ses_enpt_gpt.csv
+ses_132,0,SES,ses_unique.csv
+gses_132,0,SES,ses_enpt_gpt.csv
+ses_141,0,SES,ses_unique.csv
+gses_141,0,SES,ses_enpt_gpt.csv
+ses_142,0,SES,ses_unique.csv
+gses_142,0,SES,ses_enpt_gpt.csv
+ses_151,0,SES,ses_unique.csv
+gses_151,0,SES,ses_enpt_gpt.csv
+ses_152,0,SES,ses_unique.csv
+gses_152,0,SES,ses_enpt_gpt.csv
+ses_161,0,SES,ses_unique.csv
+gses_161,0,SES,ses_enpt_gpt.csv
+ses_162,0,SES,ses_unique.csv
+gses_162,0,SES,ses_enpt_gpt.csv
+ses_171,0,SES,ses_unique.csv
+gses_171,0,SES,ses_enpt_gpt.csv
+ses_172,0,SES,ses_unique.csv
+gses_172,0,SES,ses_enpt_gpt.csv
+ses_181,0,SES,ses_unique.csv
+gses_181,0,SES,ses_enpt_gpt.csv
+ses_182,0,SES,ses_unique.csv
+gses_182,0,SES,ses_enpt_gpt.csv
+pa_01,0,Aparência Física,physical_unique.csv
+gpa_01,0,Aparência Física,physical_enpt_gpt.csv
+pa_02,0,Aparência Física,physical_unique.csv
+gpa_02,0,Aparência Física,physical_enpt_gpt.csv
+pa_11,0,Aparência Física,physical_unique.csv
+gpa_11,0,Aparência Física,physical_enpt_gpt.csv
+pa_12,0,Aparência Física,physical_unique.csv
+gpa_12,0,Aparência Física,physical_enpt_gpt.csv
+pa_21,0,Aparência Física,physical_unique.csv
+gpa_21,0,Aparência Física,physical_enpt_gpt.csv
+pa_21,0,Aparência Física,physical_unique.csv
+gpa_21,0,Aparência Física,physical_enpt_gpt.csv
+pa_31,0,Aparência Física,physical_unique.csv
+gpa_31,0,Aparência Física,physical_enpt_gpt.csv
+pa_32,0,Aparência Física,physical_unique.csv
+gpa_32,0,Aparência Física,physical_enpt_gpt.csv
+pa_41,0,Aparência Física,physical_unique.csv
+gpa_41,0,Aparência Física,physical_enpt_gpt.csv
+pa_42,0,Aparência Física,physical_unique.csv
+gpa_42,0,Aparência Física,physical_enpt_gpt.csv
+pa_51,0,Aparência Física,physical_unique.csv
+gpa_51,0,Aparência Física,physical_enpt_gpt.csv
+pa_52,0,Aparência Física,physical_unique.csv
+gpa_52,0,Aparência Física,physical_enpt_gpt.csv
+pa_61,0,Aparência Física,physical_unique.csv
+gpa_61,0,Aparência Física,physical_enpt_gpt.csv
+pa_62,0,Aparência Física,physical_unique.csv
+gpa_62,0,Aparência Física,physical_enpt_gpt.csv
+pa_71,0,Aparência Física,physical_unique.csv
+gpa_71,0,Aparência Física,physical_enpt_gpt.csv
+pa_72,0,Aparência Física,physical_unique.csv
+gpa_72,0,Aparência Física,physical_enpt_gpt.csv
+pa_81,0,Aparência Física,physical_unique.csv
+gpa_81,0,Aparência Física,physical_enpt_gpt.csv
+pa_82,0,Aparência Física,physical_unique.csv
+gpa_82,0,Aparência Física,physical_enpt_gpt.csv
+pa_91,0,Aparência Física,physical_unique.csv
+gpa_91,0,Aparência Física,physical_enpt_gpt.csv
+pa_92,0,Aparência Física,physical_unique.csv
+gpa_92,0,Aparência Física,physical_enpt_gpt.csv
+pa_101,0,Aparência Física,physical_unique.csv
+gpa_101,0,Aparência Física,physical_enpt_gpt.csv
+pa_102,0,Aparência Física,physical_unique.csv
+gpa_102,0,Aparência Física,physical_enpt_gpt.csv
+pa_111,0,Aparência Física,physical_unique.csv
+gpa_111,0,Aparência Física,physical_enpt_gpt.csv
+pa_112,0,Aparência Física,physical_unique.csv
+gpa_112,0,Aparência Física,physical_enpt_gpt.csv
+pa_121,0,Aparência Física,physical_unique.csv
+gpa_121,0,Aparência Física,physical_enpt_gpt.csv
+pa_122,0,Aparência Física,physical_unique.csv
+gpa_122,0,Aparência Física,physical_enpt_gpt.csv
+pa_131,0,Aparência Física,physical_unique.csv
+gpa_131,0,Aparência Física,physical_enpt_gpt.csv
+pa_132,0,Aparência Física,physical_unique.csv
+gpa_132,0,Aparência Física,physical_enpt_gpt.csv
+pa_141,0,Aparência Física,physical_unique.csv
+gpa_141,0,Aparência Física,physical_enpt_gpt.csv
+pa_142,0,Aparência Física,physical_unique.csv
+gpa_142,0,Aparência Física,physical_enpt_gpt.csv
+pa_151,0,Aparência Física,physical_unique.csv
+gpa_151,0,Aparência Física,physical_enpt_gpt.csv
+pa_152,0,Aparência Física,physical_unique.csv
+gpa_152,0,Aparência Física,physical_enpt_gpt.csv
+pa_161,0,Aparência Física,physical_unique.csv
+gpa_161,0,Aparência Física,physical_enpt_gpt.csv
+pa_162,0,Aparência Física,physical_unique.csv
+gpa_162,0,Aparência Física,physical_enpt_gpt.csv
+pa_171,0,Aparência Física,physical_unique.csv
+gpa_171,0,Aparência Física,physical_enpt_gpt.csv
+pa_172,0,Aparência Física,physical_unique.csv
+gpa_172,0,Aparência Física,physical_enpt_gpt.csv
+pa_181,0,Aparência Física,physical_unique.csv
+gpa_181,0,Aparência Física,physical_enpt_gpt.csv
+pa_182,0,Aparência Física,physical_unique.csv
+gpa_182,0,Aparência Física,physical_enpt_gpt.csv
+pa_191,0,Aparência Física,physical_unique.csv
+gpa_191,0,Aparência Física,physical_enpt_gpt.csv
+pa_192,0,Aparência Física,physical_unique.csv
+gpa_192,0,Aparência Física,physical_enpt_gpt.csv
+pa_201,0,Aparência Física,physical_unique.csv
+gpa_201,0,Aparência Física,physical_enpt_gpt.csv
+pa_202,0,Aparência Física,physical_unique.csv
+gpa_202,0,Aparência Física,physical_enpt_gpt.csv
+pa_211,0,Aparência Física,physical_unique.csv
+gpa_211,0,Aparência Física,physical_enpt_gpt.csv
+pa_212,0,Aparência Física,physical_unique.csv
+gpa_212,0,Aparência Física,physical_enpt_gpt.csv
+pa_221,0,Aparência Física,physical_unique.csv
+gpa_221,0,Aparência Física,physical_enpt_gpt.csv
+pa_222,0,Aparência Física,physical_unique.csv
+gpa_222,0,Aparência Física,physical_enpt_gpt.csv
+pa_231,0,Aparência Física,physical_unique.csv
+gpa_231,0,Aparência Física,physical_enpt_gpt.csv
+pa_232,0,Aparência Física,physical_unique.csv
+gpa_232,0,Aparência Física,physical_enpt_gpt.csv
+pa_241,0,Aparência Física,physical_unique.csv
+gpa_241,0,Aparência Física,physical_enpt_gpt.csv
+pa_242,0,Aparência Física,physical_unique.csv
+gpa_242,0,Aparência Física,physical_enpt_gpt.csv
