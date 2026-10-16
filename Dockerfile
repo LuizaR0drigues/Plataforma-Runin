@@ -8,11 +8,12 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
 
 RUN pip install --upgrade pip
 
-# requirements primeiro (melhor uso do cache)
+# requirements primeiro
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-
+RUN apt-get update && apt-get install -y --no-install-recommends libpq5 \
+	&& rm -rf /var/lib/apt/lists/*
 # Stage 2: imagem final
 FROM python:3.13-slim
 
@@ -35,6 +36,6 @@ COPY --chown=appuser:appuser . .
 
 USER appuser
 
-EXPOSE 8000
+EXPOSE 8080
 
 CMD ["gunicorn", "--bind", "0.0.0.0:8000", "--workers", "3", "--access-logfile", "-", "forms.wsgi:application"]
