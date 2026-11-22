@@ -1,34 +1,34 @@
 /* Importação de Fonte */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
-
-/* Reset de Estilos */
+/* Reset de Estilos (corrigido de '-' para '*') */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
-
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden; /* Trava apenas na horizontal; mantém a rolagem vertical */
+}
 
-/*Centralizando o container*/
+/* Centralizando o container */
 body {
     display: flex;
     align-items: center;
     flex-direction: column;
     background-color: #D1C8E1;
-    
 }
 
 .container {
     width: min(100%, 900px);
-    
+    min-width: 0;
     background-color: #ffffff;
     padding: 10px 20px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
     border-radius: 10px;
-   
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -39,57 +39,80 @@ header {
     position: sticky;
     top: 0;
     width: 100%;
-
+    min-width: 0;
     background-color: #fff;
     z-index: 999;
-
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: nowrap;
-    
     padding: 10px;
     min-height: 70px;
     margin: 0 auto;
-    box-sizing: border-box;
-    
-
 }
 
-/*Configurações da Main*/
-main  {
-    
+/* Configurações da Main */
+main {
     padding: 10px 20px;
     width: 100%;
+    max-width: 100%;
+    min-width: 0;
     flex-grow: 1;
 }
+
 main section {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
     margin-bottom: 20px;
 }
 
-section p, figcaption {
+section p, figcaption, li {
+    max-width: 100%;
     text-align: justify;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
 }
+
 ul {
     margin-left: 20px;
-
+    max-width: calc(100% - 20px);
 }
 
-/*Main Cadastro*/
+/* Main Cadastro e Enunciados */
 main form {
+    width: 100%;
+    max-width: 100%;
     padding: 10px 20px;
 }
+
 .element {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
     margin-bottom: 10px;
     margin-top: 10px;
 }
 
-.enunc{
+.enunc {
     font-weight: bold;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    overflow-wrap: break-word;
+    word-break: break-word;
 }
+
+.element input:not([type="radio"]):not([type="checkbox"]),
+.element select,
+.element textarea {
+    width: 100%;
+    max-width: 100%;
+}
+
 /* Tooltip */
 .tooltip {
     position: relative;
@@ -106,18 +129,15 @@ main form {
     padding: 10px;
     border-radius: 6px;
     text-align: left;
-
     width: max-content;
     min-width: 100px;
-    max-width: 250px;
+    max-width: min(250px, 80vw);
     white-space: normal;
-
     position: absolute;
     z-index: 500;
     bottom: 100%;
     left: 50%;
     margin-bottom: 15px;
-
     transform: translateX(-50%);
     opacity: 0;
     visibility: hidden;
@@ -128,20 +148,15 @@ main form {
     content: '';
     position: absolute;
     z-index: 500;
-
     bottom: 100%;
     left: 50%;
     margin-bottom: 5px;
     transform: translateX(-50%);
-
     border: 5px solid transparent;
     border-top-color: #6a009a;
-
     opacity: 0;
     visibility: hidden;
     transition: opacity 0.4s ease, visibility 0.4s ease;
-
-
 }
 
 .tooltip:hover::before,
@@ -162,52 +177,72 @@ sup.tooltip:hover:after,
 sup.tooltip:hover:before {
     opacity: 1;
 }
-/*COnfigurações relacionadas ao Iframe e Imagens da HOME*/
- figure, .iframe {
+
+/* Configurações relacionadas ao Iframe e Imagens da HOME */
+figure, .iframe {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+}
+
+figure img, img, svg, iframe {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
 }
 
 .iframe {
     overflow: visible;
-   
 }
 
-/* apenas a scroll-box controla a rolagem */
+/* Apenas a scroll-box controla a rolagem */
 .iframe .scroll-box {
-  height: 400px;         /* altura fixa */
-  overflow-y: auto;      /* scroll vertical */
-  overflow-x: hidden;    /* sem scroll horizontal */
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    height: 400px;
+    overflow-y: auto;
+    overflow-x: auto;
 }
-/* Garante que divs internas do form ocupem 100% */
+
+.iframe .scroll-box * {
+    max-width: 100%;
+    min-width: 0;
+}
+
 .iframe .scroll-box form > div {
     width: 100%;
     max-width: 100%;
-    box-sizing: border-box;
 }
 
-/*BOtao Continuar*/
+/* Botão Continuar */
 .botao {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    justify-items: center;
 }
+
 .botao-continuar {
-    display: block;
-    margin: 5px auto;
+    display: inline-block;
+    margin: 1rem auto 5px auto;
     padding: 12px 24px;
-    margin-top: 1rem;
     background-color: #9400D3;
     border: none;
     border-radius: 6px;
     cursor: pointer;
-    
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
 }
-.botao-continuar a,  .botao-continuar p{
+
+.botao-continuar a, .botao-continuar p {
     color: white;
     font-size: 16px;
     text-align: center;
@@ -216,14 +251,11 @@ sup.tooltip:hover:before {
 }
 
 /* Termo */
- 
-
 .tce section {
     margin-bottom: 20px;
 }
 
 .tce div {
-    
     margin-bottom: 20px;
 }
 
@@ -231,7 +263,7 @@ sup.tooltip:hover:before {
     padding-bottom: 5px;
     text-align: justify;
 }
- 
+
 /* Botão Termo */
 .botao-tce {
     display: flex;
@@ -250,7 +282,7 @@ sup.tooltip:hover:before {
     cursor: pointer;
 }
 
-#finalizar{
+#finalizar {
     background: #ccc;
     color: black;
 }
@@ -260,26 +292,17 @@ sup.tooltip:hover:before {
     color: #fff;
 }
 
-/* Lidando com telas pequenas */
-html, body {
-    max-width: 100%;
-    overflow: hidden;
-}
+/* Ajustes para telas de celular */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px 12px;
+    }
 
-main, section, p, li, figcaption {
-    max-width: 100%;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-}
+    main, main form {
+        padding: 10px 6px;
+    }
 
-img, iframe, .iframe, .iframe .scroll-box {
-    max-width: 100%;
-}
-
-img {
-    height: auto;
-}
-
-.tooltip::before {
-    max-width: min(250px, 80vw);
+    section p, figcaption, li {
+        text-align: left;
+    }
 }
