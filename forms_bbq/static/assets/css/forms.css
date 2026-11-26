@@ -124,7 +124,7 @@ main {
     flex-direction: column;
     gap: 5px;
     margin-bottom: 8px;
-    padding: 11px;
+    padding: 10px o;
 }
 
 .info-words {
@@ -272,6 +272,13 @@ sup.tooltip:hover:before {
 }
 /* Responsividade */
 @media (max-width: 768px) {
+    .container {
+        padding: 10px 12px;
+    }
+
+    .main {
+        padding: 10px 4px;
+    }
     .content {
         height: auto;
         flex-direction: column;
@@ -279,7 +286,7 @@ sup.tooltip:hover:before {
 
 
     .form-content {
-        padding: 1rem;
+        padding: 8px;
     }
 
     .context,
@@ -288,6 +295,7 @@ sup.tooltip:hover:before {
     .type-question,
     .type-answer {
         flex-direction: column;
+        gap: 8px;
     }
 
     .eng,
