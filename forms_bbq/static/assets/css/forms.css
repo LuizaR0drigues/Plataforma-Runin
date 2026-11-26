@@ -74,11 +74,11 @@ main {
 .contextos {
     display: flex;
     flex-direction: column;
-    gap: 22px;
+    gap: 20px;
 }
 
 .contexto-bloco {
-    padding: 10px;
+    padding: 4px 0px;
 }
 
 .type-question,
@@ -93,6 +93,7 @@ main {
     border: 2px solid #d1c8e1;
     border-radius: 8px;
     padding: 10px;
+    line-height: 1.4;
 }
 
 
@@ -105,7 +106,7 @@ main {
 .content h4,
 .contextos h3,
 .contextos h4 {
-    margin-top: 10px;
+    margin-top: 8px;
 }
 
 /* Garante espaçamento entre a caixa em inglês (.eng) e a caixa em português (.ptbr) */
