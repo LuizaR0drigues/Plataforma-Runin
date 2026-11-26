@@ -72,7 +72,6 @@ main {
 
 .content {
     display: flex;
-    flex-wrap: wrap;
     gap: 10px;
 }
 
@@ -110,7 +109,6 @@ main {
     grid-template-columns: auto 1fr auto 1fr;
     border: 3px solid #d1c8e1;
     border-radius: 6px;
-    flex-wrap: wrap;
     overflow: hidden;
 }
 
@@ -253,6 +251,11 @@ sup.tooltip:hover:before {
 @media (max-width: 768px) {
     .content {
         height: auto;
+        flex-direction: column;
+    }
+
+    .contextos {
+        width: 100%;
     }
 
     .form-content {
@@ -267,5 +270,13 @@ sup.tooltip:hover:before {
     .eng,
     .ptbr {
         width: 100%;
+    }
+
+    .info-words {
+        grid-template-columns: auto 1fr;
+    }
+
+    .chave, .conteudo {
+        word-break: break-word;
     }
 }
