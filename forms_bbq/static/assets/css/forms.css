@@ -105,7 +105,7 @@ main {
 .content h4,
 .contextos h3,
 .contextos h4 {
-    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 /* Garante espaçamento entre a caixa em inglês (.eng) e a caixa em português (.ptbr) */
@@ -122,7 +122,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 5px;
-    margin-bottom: 12px;
+    margin-bottom: 8px;
     padding: 11px;
 }
 
