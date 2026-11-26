@@ -254,14 +254,14 @@ sup.tooltip:hover:before {
         flex-direction: column;
     }
 
-    .contextos {
-        width: 100%;
-    }
 
     .form-content {
         padding: 1rem;
     }
 
+    .context,
+    .contexto,
+    .contextos-item,
     .type-question,
     .type-answer {
         flex-direction: column;
@@ -273,10 +273,10 @@ sup.tooltip:hover:before {
     }
 
     .info-words {
-        grid-template-columns: auto 1fr;
+        grid-template-columns: auto 1fr !important;
     }
 
-    .chave, .conteudo {
+    /*.chave, .conteudo {
         word-break: break-word;
-    }
+    }*/
 }
