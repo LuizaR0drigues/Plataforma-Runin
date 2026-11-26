@@ -42,8 +42,7 @@
                 <div class="element">
                     <label class="enunc" for="{{ form.igender.id_for_label }}">
                         {{ form.igender.label }}
-                        <sup class="tooltip"
-                            data-title="Identidade de gênero: refere-se a como a pessoa se reconhece. Cisgênero: se identifica com o gênero atribuido no nascimento.
+                        <sup class="tooltip" data-title="Identidade de gênero: refere-se a como a pessoa se reconhece. Cisgênero: se identifica com o gênero atribuido no nascimento.
                             Transgênero: não se identifica com o genero atribuido no nascimento.
                             Não-binária: não se identifica estritamente com o binário.">
                             &#9432;
@@ -64,8 +63,7 @@
                 <div class="element">
                     <label class="enunc" for="{{ form.ses1.id_for_label }}">
                         {{ form.ses1.label }}
-                        <sup class="tooltip"
-                            data-title="Considere o salário mínimo paulista atual. SM = R$ 1.804,00 ">
+                        <sup class="tooltip" data-title="Considere o salário mínimo paulista atual. SM = R$ 1.804,00 ">
                             &#9432;
                         </sup>
                     </label>
@@ -92,17 +90,18 @@
                 <div class="element">
                     <label class="enunc" for="{{ form.pcd.id_for_label }}">
                         {{ form.pcd.label }}
-                        <sup class="tooltip"
-                            data-title="Inclui deficiências e neurodivergências.">
+                        <sup class="tooltip" data-title="Inclui deficiências e neurodivergências.">
                             &#9432;
                         </sup>
                     </label>
                     {{ form.pcd }}
                 </div>
+                <div class="botao">
+                    <button class="botao-continuar" type="submit">
+                        <p>Continuar</p>
+                    </button>
+                </div>
 
-                <button class="botao-continuar" type="submit">
-                    <p>Continuar</p>
-                </button>
             </form>
         </main>
     </div>
