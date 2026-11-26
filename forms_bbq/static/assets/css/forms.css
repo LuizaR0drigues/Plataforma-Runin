@@ -74,7 +74,7 @@ main {
 .contextos {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
 }
 
 .contexto-bloco {
@@ -122,9 +122,9 @@ main {
 .info {
     display: flex;
     flex-direction: column;
-    gap: 5px;
-    margin-bottom: 8px;
-    padding: 10px o;
+    gap: 2px;
+    margin-bottom: 2px;
+    padding: 8px;
 }
 
 .info-words {
@@ -175,7 +175,10 @@ main {
     border-color: #4e2a7c;
 }
 
-
+.id_is_valid,
+.id_is_adaptacao {
+    margin-bottom: 5px;
+}
 
 
 /* Tooltip */
