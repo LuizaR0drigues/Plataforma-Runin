@@ -228,7 +228,7 @@ figure img, img, svg, iframe {
 }
 
 .botao-continuar {
-    display: inline-block;
+    display: flex;
     margin: 1rem auto 5px auto;
     padding: 12px 24px;
     background-color: #9400D3;
